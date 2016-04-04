@@ -1,6 +1,5 @@
 class SubsController < ApplicationController
   before_action :set_sub, only: [:show, :edit, :update, :destroy]
-
   # GET /subs
   # GET /subs.json
   def index
@@ -11,6 +10,7 @@ class SubsController < ApplicationController
   # GET /subs/1.json
   def show
     @filer = @sub
+    @subs = Sub.all
     @nums = Num.where(adsh: @sub.adsh)
     @numKeys = Num.new.attributes.keys
   end

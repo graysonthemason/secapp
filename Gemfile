@@ -29,6 +29,10 @@ gem 'pry'
 # Use colorize for command line coloring
 gem 'colorize'
 
+gem 'rails4-autocomplete', '~> 1.1', '>= 1.1.1'
+gem 'simple_form'
+gem "jquery-ui-rails"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
