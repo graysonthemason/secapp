@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   
   private
   def set_filersQuery
-    @filers = Filer.all.select("cik,name,symbol").where.not('symbol' => nil).order(:symbol)
+    @filers = Filer.includes(:stock).all.select("cik,name,symbol").where.not('symbol' => nil).order(:symbol)
   	@filersQuery = @filers.pluck_h(:name, :cik, :symbol)
   	@filersQuery.map {|item| item[:searchName] = "#{item[:name]} #{item[:symbol]}"}
   end

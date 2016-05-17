@@ -27,6 +27,8 @@ gem "d3-rails"
 
 group :development, :test do
   gem 'byebug'
+  gem 'bullet'
+  gem 'rollbar'
 end
 
 group :development do
@@ -35,8 +37,6 @@ group :development do
 end
 
 group :production do
-	gem 'passenger', require: "phusion_passenger/rack_handler"
-
 end
 
 

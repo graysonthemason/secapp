@@ -1,0 +1,2123 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+}
+
+table {
+    font-size: 12px;
+}
+
+.welcome img {
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+div.welcome {
+    background: rgba(255, 255, 255, 0);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.welcome .filer-link {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+
+.filer-link {
+    font-family: 'Raleway';
+}
+
+.bg-sec-primary {
+    background-color: #26282f;
+}
+
+.site-wrap caption {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.site-wrap .container-fluid {
+    overflow: scroll;
+}
+
+.site-wrap {}
+
+.header-wrap {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.content-wrap {
+    padding: 1rem;
+}
+
+.company-form {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.sortable th {
+    cursor: pointer;
+}
+
+.sortable th,
+.sortable td {
+    padding: 0 6px;
+}
+
+#scrollable-dropdown-menu .tt-dropdown-menu {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.header-wrap input {
+    color: black;
+}
+
+.header-wrap .form-group {
+    color: grey;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.header-wrap .logo a {
+    color: white;
+    float: left;
+    font-size: 1.2em;
+    border-right: 1px solid white;
+    margin: 0 9px 0 0;
+    padding: 4px 9px 0 0;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+.site-wrap .container-fluid {
+    padding: 0;
+}
+
+#notice {
+    margin: 0;
+}
+.site-wrap .filer {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	width: auto;
+	overflow: scroll;
+	margin-bottom: 40px;
+}
+
+.table-responsive {
+	width: 100%;
+}
+
+.report-heading {
+	margin: 0;
+	padding: 10px 12px;
+	background-color: #163550;
+	color: white;
+}
+
+.filer-content .nav-tabs>li.active>a,
+.filer-content .nav-tabs>li.active>a:focus,
+.filer-content .nav-tabs>li.active>a:hover {
+	background-color: #163550;
+	color: white;
+}
+
+.filer-content ul {
+	padding: 8px 8px 0 8px;
+}
+
+.filer-index tr {
+	cursor: pointer;
+}
+
+.filers {
+	margin: 0;
+}
+.tt-menu {
+	background-color: white;
+	max-height: 150px;
+	overflow-y: auto;
+	padding: 8px;
+	width: 420px;
+}
+
+.tt-query {
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+	color: #999
+}
+
+.tt-menu {
+	/* used to be tt-dropdown-menu in older versions */
+	width: 422px;
+	margin-top: 4px;
+	padding: 4px 0;
+	background-color: #fff;
+/*	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);*/
+	border-left: solid 6px rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.tt-suggestion {
+	padding: 2px 14px;
+	line-height: 1.1em;
+	font-size: .8em;
+}
+
+.tt-suggestion.tt-cursor,
+.tt-suggestion:hover {
+	color: #fff;
+	background-color: #0097cf;
+}
+
+.tt-suggestion.tt-cursor a,
+.tt-suggestion:hover a {
+	color: #fff;
+	text-decoration: none
+}
+.the-menu {
+	position: relative;
+	float: left;
+	left: 0;
+	bottom: 0;
+	width: 220px;
+	text-align: right;
+	background: white;
+	color: #111;
+	overflow: scroll;
+	border-right: 1px solid black;
+	height: 100%;
+}
+
+.ticker,
+.exchange {
+	color: #8F8F8F;
+}
+
+.echange {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.ticker {
+	font-size: 1.5em;
+}
+
+.subs-summary .name {
+	font-size: 1.8em;
+	line-height: 1em;
+}
+
+.subs-detail,
+.subs-summary {
+	padding: 12px;
+	border-bottom: 1px solid #000;
+}
+
+.subs-detail div {
+	clear: both;
+	font-size: .8em;
+}
+.subs-detail h5 span {
+	margin-right: 4px;
+	vertical-align: top;
+}
+
+.subs-nav .active, .subs-nav .nav li:hover a {
+	background-color: #163550;
+}
+
+.subs-nav .active a, .subs-nav li:hover a {
+	color: white;
+}
+
+.subs-nav ul {
+	padding: 0;
+}
+
+.one-line-table td,
+.one-line-table th {
+    white-space: nowrap;
+    padding: 0 4px;
+}
+
+.link-section li {
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.one-line-table td {
+    text-align: right;
+}
+
+.one-line-table th {
+    max-width: 300px;
+    overflow: scroll;
+}
+
+.table-popup {
+    position: absolute;
+    background-color: blue
+}
+
+.table-hover>tbody>tr>td:hover,
+.table-hover>tbody>tr>td:hover {
+    background-color: #f5f5f5!important;
+}
+
+.table-hover>tbody>tr:hover>td,
+.table-hover>tbody>tr:hover>th {
+    background-color: inherit;
+}
+
+table .modal-body {
+    padding: 0;
+}
+
+.filer table .total {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.nav-tabs .dropdown-menu {
+    padding: 0;
+}
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    
+    text.symbol {
+        fill: #BBBBBB;
+    }
+    
+    path {
+        fill: none;
+        stroke-width: 1;
+    }
+    
+    path.candle {
+        stroke: #000000;
+    }
+    
+    path.candle.body {
+        stroke-width: 0;
+    }
+    
+    path.candle.up {
+        fill: #00AA00;
+        stroke: #00AA00;
+    }
+    
+    path.candle.down {
+        fill: #FF0000;
+        stroke: #FF0000;
+    }
+    
+    .close.annotation.up path {
+        fill: #00AA00;
+    }
+    
+    path.volume {
+        fill: #DDDDDD;
+    }
+    
+    .indicator-plot path.line {
+        fill: none;
+        stroke-width: 1;
+    }
+    
+    .ma-0 path.line {
+        stroke: #1f77b4;
+    }
+    
+    .ma-1 path.line {
+        stroke: #aec7e8;
+    }
+    
+    .ma-2 path.line {
+        stroke: #ff7f0e;
+    }
+    
+    button {
+        position: absolute;
+        right: 110px;
+        top: 25px;
+    }
+    
+    path.macd {
+        stroke: #0000AA;
+    }
+    
+    path.signal {
+        stroke: #FF9999;
+    }
+    
+    path.zero {
+        stroke: #BBBBBB;
+        stroke-dasharray: 0;
+        stroke-opacity: 0.5;
+    }
+    
+    path.difference {
+        fill: #BBBBBB;
+        opacity: 0.5;
+    }
+    
+    path.rsi {
+        stroke: #000000;
+    }
+    
+    path.overbought,
+    path.oversold {
+        stroke: #FF9999;
+        stroke-dasharray: 5, 5;
+    }
+    
+    path.middle,
+    path.zero {
+        stroke: #BBBBBB;
+        stroke-dasharray: 5, 5;
+    }
+    
+    .analysis path,
+    .analysis circle {
+        stroke: blue;
+        stroke-width: 0.8;
+    }
+    
+    .trendline circle {
+        stroke-width: 0;
+        display: none;
+    }
+    
+    .mouseover .trendline path {
+        stroke-width: 1.2;
+    }
+    
+    .mouseover .trendline circle {
+        stroke-width: 1;
+        display: inline;
+    }
+    
+    .dragging .trendline path,
+    .dragging .trendline circle {
+        stroke: darkblue;
+    }
+    
+    .interaction path,
+    .interaction circle {
+        pointer-events: all;
+    }
+    
+    .interaction .body {
+        cursor: move;
+    }
+    
+    .trendlines .interaction .start,
+    .trendlines .interaction .end {
+        cursor: nwse-resize;
+    }
+    
+    .supstance path {
+        stroke-dasharray: 2, 2;
+    }
+    
+    .supstances .interaction path {
+        pointer-events: all;
+        cursor: ns-resize;
+    }
+    
+    .mouseover .supstance path {
+        stroke-width: 1.5;
+    }
+    
+    .dragging .supstance path {
+        stroke: darkblue;
+    }
+    
+    .crosshair {
+        cursor: crosshair;
+    }
+    
+    .crosshair path.wire {
+        stroke: #DDDDDD;
+        stroke-dasharray: 1, 1;
+    }
+    
+    .crosshair .axisannotation path {
+        fill: #DDDDDD;
+    }
+    
+    .tradearrow path.tradearrow {
+        stroke: none;
+    }
+    
+    .tradearrow path.buy {
+        fill: #0000FF;
+    }
+    
+    .tradearrow path.sell {
+        fill: #9900FF;
+    }
+    
+    .tradearrow path.highlight {
+        fill: none;
+        stroke-width: 2;
+    }
+    
+    .tradearrow path.highlight.buy {
+        stroke: #0000FF;
+    }
+    
+    .tradearrow path.highlight.sell {
+        stroke: #9900FF;
+    }
+.hd h2 {
+    display: inline;
+    margin-right: 2px;
+    font: bold 15px arial;
+}
+
+.hd .exchange {
+    color: #999;
+    font: normal 12px arial;
+}
+
+ul.pager {
+    margin: 0;
+}
+
+.filer-index {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.stock-quote-summary .bid {
+    font: bold 30px arial;
+}
+
+.stock-header,
+.stock-data {
+    padding: 13px 0 9px 5px;
+    margin-top: 0;
+    border-bottom: 2px solid #000;
+    font-size: 13px;
+}
+
+.stock-quote-summary div {
+    display: inline;
+}
+
+.stock-quote-summary .price-change,
+.stock-quote-summary .price-change-percent,
+.stock-quote-summary i {
+    font-weight: 200;
+    padding-right: 1px;
+    font-size: 20px;
+}
+
+.stock-state-up {
+    color: #080;
+}
+
+.stock-state-down {
+    color: #800;
+}
+
+.stock-data table {
+  display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.filer .stock-data th,
+.filer .stock-data td {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 5px 5px 0;
+    text-align: left;
+    font: 93%/93% arial;
+    color: #333;
+    line-height: 1em!important;
+}
+
+.filer .stock-data td {
+    font-weight: bold;
+}
+
+.filer .stock-data table {
+    margin: 5px 0 5px 8px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ */
+
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.3333333333333333em;
+  line-height: 1em;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+.flag-icon.flag-icon-squared {
+  width: 1em;
+}
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon-ad {
+  background-image: url(/assets/4x3/ad-df29af91a2667efcf3d84bbe5923e04ff1f79e2b6fe83e54688498e3ce4b583a.svg);
+}
+.flag-icon-ad.flag-icon-squared {
+  background-image: url(/assets/1x1/ad-c9c8698163ac2b0b073204a44c90e83adf77ab6feb8680faaf5ee01491469302.svg);
+}
+.flag-icon-ae {
+  background-image: url(/assets/4x3/ae-0ec87c69e82f3de7de0371b557284b4afbfe40dd17314230197b34740f1150f0.svg);
+}
+.flag-icon-ae.flag-icon-squared {
+  background-image: url(/assets/1x1/ae-731a5012671e88ceef8f33fd69963ae34195f4fab14179d040a0640ab8ae03c0.svg);
+}
+.flag-icon-af {
+  background-image: url(/assets/4x3/af-4e2fe60993ad9f771f2a9b9dc1568d204b1624c313313867c7a17f872c9a1eff.svg);
+}
+.flag-icon-af.flag-icon-squared {
+  background-image: url(/assets/1x1/af-56face9c0e90ce86fa14b2ebbea43160ca1718cf455f97e0b33ddb85a50ed68b.svg);
+}
+.flag-icon-ag {
+  background-image: url(/assets/4x3/ag-216fc8fa22a760aff6878c7a7f455235a46fb022bd0bbf592790c5e4c7096a0d.svg);
+}
+.flag-icon-ag.flag-icon-squared {
+  background-image: url(/assets/1x1/ag-ea869858344dd358583944911e4b16eba92f8c573972e3026acba36c042cf545.svg);
+}
+.flag-icon-ai {
+  background-image: url(/assets/4x3/ai-c370fb3fcb6eaf8d018eae5e75b7becd2b30199ba1ce211b4285eaa3dbf05ffd.svg);
+}
+.flag-icon-ai.flag-icon-squared {
+  background-image: url(/assets/1x1/ai-9f0a9de22065b979ca00ff11bd67f882d93a88ed5ab224411b0990530702c153.svg);
+}
+.flag-icon-al {
+  background-image: url(/assets/4x3/al-d10218962abcf37817b80a01242c7bbc001e917e2c15dad437c70e5df3da998c.svg);
+}
+.flag-icon-al.flag-icon-squared {
+  background-image: url(/assets/1x1/al-47d153a672b6cfbea3d721b888733696762554ab868c121a2f5e10946573f575.svg);
+}
+.flag-icon-am {
+  background-image: url(/assets/4x3/am-187b4c6c10c30e150c45376ba4aa38384ca93c053aa22180f855c732318ea89e.svg);
+}
+.flag-icon-am.flag-icon-squared {
+  background-image: url(/assets/1x1/am-953beba62de7da8c29cb667851b6cd2e1c5869a950311131037e0fc44513763c.svg);
+}
+.flag-icon-ao {
+  background-image: url(/assets/4x3/ao-7ea9d4d57f8948aa267b0640699f4a8d69da1b7e5109c9ba511ce9e1fd8b3598.svg);
+}
+.flag-icon-ao.flag-icon-squared {
+  background-image: url(/assets/1x1/ao-e0104200b70b81a22dd15149494020ed73821e385080dbcfa42701ea52b2a4cc.svg);
+}
+.flag-icon-aq {
+  background-image: url(/assets/4x3/aq-fc28ad8ac71770a71006f54504249f2f51e75b3835c2c964e435a72942548b64.svg);
+}
+.flag-icon-aq.flag-icon-squared {
+  background-image: url(/assets/1x1/aq-c244aadee12be8d08e0ae7dd1c37b301f53fa1f3b0ce4276576ed0b3747c2f87.svg);
+}
+.flag-icon-ar {
+  background-image: url(/assets/4x3/ar-cfc6e460d632059656fa737591954b753f2e4871c2868f3fe5b9694fb625a354.svg);
+}
+.flag-icon-ar.flag-icon-squared {
+  background-image: url(/assets/1x1/ar-3f96234f77db862b66b4808e98da2f99af72d178b923f2009fe3bd03416c5cf7.svg);
+}
+.flag-icon-as {
+  background-image: url(/assets/4x3/as-4897ce7a25b0a581b0c7ef7fa4123f6e129d3b1504a4cf619e594d486bc320bb.svg);
+}
+.flag-icon-as.flag-icon-squared {
+  background-image: url(/assets/1x1/as-fb3142d3fd97d8833b7cf155fd0c74cb0ecb77de7729c9696c8827566bf85283.svg);
+}
+.flag-icon-at {
+  background-image: url(/assets/4x3/at-bb0db7c2d98be102f9315f2d1fe0ac659491c4b4a9d9132d495ca155221f2992.svg);
+}
+.flag-icon-at.flag-icon-squared {
+  background-image: url(/assets/1x1/at-b4070653cf98680518067f92bfeeec2366ba4b97a1a354fc984d222e59be7aa7.svg);
+}
+.flag-icon-au {
+  background-image: url(/assets/4x3/au-d814df56369135abc210d1f0fe1d3f0db3fa007db3d7592fc6bec26c2364fcb3.svg);
+}
+.flag-icon-au.flag-icon-squared {
+  background-image: url(/assets/1x1/au-2f436a3bdf33a8ed2cd194093086ff125a119ec06a138bdc1f5a594edb59d638.svg);
+}
+.flag-icon-aw {
+  background-image: url(/assets/4x3/aw-86682ac6bf81ef501679070ac5d0a0b590e91638ee58fb9185ce1497863592f3.svg);
+}
+.flag-icon-aw.flag-icon-squared {
+  background-image: url(/assets/1x1/aw-5f1d7be4e8756f37c716a22861bcba25551e733b19c8d6fbc0c288aacbeeae42.svg);
+}
+.flag-icon-ax {
+  background-image: url(/assets/4x3/ax-0c1c839a207ceea36c2f298049f6833d7b83f4dc5a943346e240a38d276a1f7e.svg);
+}
+.flag-icon-ax.flag-icon-squared {
+  background-image: url(/assets/1x1/ax-a3fc0eab0246050d0106182d9a66b5f736feb64e9c4f164b22908b7b9842a910.svg);
+}
+.flag-icon-az {
+  background-image: url(/assets/4x3/az-996352fdf4e75bd14bdd39f7328d0f6cde4d08404f2774a6dce7c49f1e0b13f7.svg);
+}
+.flag-icon-az.flag-icon-squared {
+  background-image: url(/assets/1x1/az-401469b715b601fe85c65ef2beb910cdb6c8c8f3c0ac7a3352d3736ed2a30aab.svg);
+}
+.flag-icon-ba {
+  background-image: url(/assets/4x3/ba-168194b83a2f1010de2dba3e70de99bd424115572e31df58c382666b839df1b2.svg);
+}
+.flag-icon-ba.flag-icon-squared {
+  background-image: url(/assets/1x1/ba-08158d06b47ea1a9e61cbf2b0177e347fed00668c8f43dc0abf5a0335b3a0bbe.svg);
+}
+.flag-icon-bb {
+  background-image: url(/assets/4x3/bb-795a195ac3da035e36e5880f8d9a2458d3aad7abd646e5013e81895375e94e14.svg);
+}
+.flag-icon-bb.flag-icon-squared {
+  background-image: url(/assets/1x1/bb-1fc0df7018c69c20534c1a47cfff9e015faa1ccd87d3f60e0214a684dcae1ac3.svg);
+}
+.flag-icon-bd {
+  background-image: url(/assets/4x3/bd-4e10e40ffff7729532c02912dbbaf028d611affbb9931ad52b1fbe324f0cff2b.svg);
+}
+.flag-icon-bd.flag-icon-squared {
+  background-image: url(/assets/1x1/bd-6ec3c984ba1542919412292f7989bb8faad69b6a706a0dc284f5983bc102e519.svg);
+}
+.flag-icon-be {
+  background-image: url(/assets/4x3/be-1a658003ffd9f5a02a90dc80cf782a71c910983b3676e37b34f7f3dea5fb582f.svg);
+}
+.flag-icon-be.flag-icon-squared {
+  background-image: url(/assets/1x1/be-e875328b180fa55318dfa0b31e389b6f75a3a84faeab5e31fdf871c6e0b66112.svg);
+}
+.flag-icon-bf {
+  background-image: url(/assets/4x3/bf-107a55dba1ff897a08132ac88869895450365f4fd32316efac6f71cecf56ecb5.svg);
+}
+.flag-icon-bf.flag-icon-squared {
+  background-image: url(/assets/1x1/bf-7204a340889ba1782767ea5121c8ae04f88e3937918d49cf5320092fbf6ac54e.svg);
+}
+.flag-icon-bg {
+  background-image: url(/assets/4x3/bg-edcedd4b56ee0218b5246668878e6def76108e58ebf7a0ae182364ef71364535.svg);
+}
+.flag-icon-bg.flag-icon-squared {
+  background-image: url(/assets/1x1/bg-154f7214bff7f6b1651ca35a691550b66488fa2cfac304e8cc993aa4541ed428.svg);
+}
+.flag-icon-bh {
+  background-image: url(/assets/4x3/bh-df5c5e284e8f95f51f67a96b9847e07ae8019e24942402ee79125703253047d9.svg);
+}
+.flag-icon-bh.flag-icon-squared {
+  background-image: url(/assets/1x1/bh-293614ea373766174aa3883255356a045703fdcbf2ad4a307ac7bf16e9c56065.svg);
+}
+.flag-icon-bi {
+  background-image: url(/assets/4x3/bi-0e06624def949f3e09dcaeeadccceb1a8de97a0d5c17c6592d2b9799e515c9d7.svg);
+}
+.flag-icon-bi.flag-icon-squared {
+  background-image: url(/assets/1x1/bi-0990d05a481357358a7344938cedc21c488c2ed28dc533b3c8c4648e167979c2.svg);
+}
+.flag-icon-bj {
+  background-image: url(/assets/4x3/bj-b1fda8b1da190436036a7fe588f85bb1f1cf2266281f9c41a4f8b0f4882b78ef.svg);
+}
+.flag-icon-bj.flag-icon-squared {
+  background-image: url(/assets/1x1/bj-59161f66c004a5e73b842a121baa1969655350be163842907ae8a822b2a58377.svg);
+}
+.flag-icon-bl {
+  background-image: url(/assets/4x3/bl-36e29c938f025042ef9c86c2b8261ce0d9ef5c908d3d8a7168198b660da2d6b3.svg);
+}
+.flag-icon-bl.flag-icon-squared {
+  background-image: url(/assets/1x1/bl-140876278f4a98619a390111ba75b53ba5544ff30e70cc4c0bcadfa19bea5e28.svg);
+}
+.flag-icon-bm {
+  background-image: url(/assets/4x3/bm-8514eb25af9e0803cadb891195c597461a44e1097e49e2584e42a6a6d53f61f8.svg);
+}
+.flag-icon-bm.flag-icon-squared {
+  background-image: url(/assets/1x1/bm-982dc3bf595f26de82eb9827003fd19dccc690e6b297b09862acdbdd0ec48153.svg);
+}
+.flag-icon-bn {
+  background-image: url(/assets/4x3/bn-0c6e24c288b91decfa877a548f95aaf51f331d99d01617a79bb911006ebf665d.svg);
+}
+.flag-icon-bn.flag-icon-squared {
+  background-image: url(/assets/1x1/bn-6d00b0162f66b579f60324ee82672f4c2493cfd46c3be26d706b6cc097b988c6.svg);
+}
+.flag-icon-bo {
+  background-image: url(/assets/4x3/bo-a31e72253c71b4bd049f335c9b546b26d73a58c40d2ebe3046176f72bb84b49f.svg);
+}
+.flag-icon-bo.flag-icon-squared {
+  background-image: url(/assets/1x1/bo-2960be71b991cef506238716da1e86fb0ac180b409f4f18ff92ecef4643e948e.svg);
+}
+.flag-icon-bq {
+  background-image: url(/assets/4x3/bq-00fd5956d218da8102c880f094fc001aa59372f250b655431f7161913f652287.svg);
+}
+.flag-icon-bq.flag-icon-squared {
+  background-image: url(/assets/1x1/bq-d0d323ba9d9d40b566d133f034719558716550e4d2aae5893ffed7ecfc564d63.svg);
+}
+.flag-icon-br {
+  background-image: url(/assets/4x3/br-0b4103031b3d2a7a930ceab0a28caf8bd0261dfc221553d423df33dcb826ec88.svg);
+}
+.flag-icon-br.flag-icon-squared {
+  background-image: url(/assets/1x1/br-a4cb60c75adaff1f795fda6be5d18c93ae841835fa50bb4c56e338ea3aa279bc.svg);
+}
+.flag-icon-bs {
+  background-image: url(/assets/4x3/bs-f31ec3a3a283e59315f491f0cf41419e675ecd5a002b46dc40c0e54f8f2eee3d.svg);
+}
+.flag-icon-bs.flag-icon-squared {
+  background-image: url(/assets/1x1/bs-34e666e101b9a6aaadb277fecda6d65fba604f13280b3f9094b368a41b2d7469.svg);
+}
+.flag-icon-bt {
+  background-image: url(/assets/4x3/bt-7b6885d856418b19f33649752478642d107792ed8d893b37cfd59479641b7f44.svg);
+}
+.flag-icon-bt.flag-icon-squared {
+  background-image: url(/assets/1x1/bt-efe281e54a805242a77a860c092b09d9f60e034132867616dbf77c49f724a100.svg);
+}
+.flag-icon-bv {
+  background-image: url(/assets/4x3/bv-965b4217d3a356355fa47ee1b9b15465ac20877b7c9c73b8a8fb55cff40d8a88.svg);
+}
+.flag-icon-bv.flag-icon-squared {
+  background-image: url(/assets/1x1/bv-c1638054b118c51868928b6f6e0d54d2693edab13d70c8bd4a421331c77e4f0d.svg);
+}
+.flag-icon-bw {
+  background-image: url(/assets/4x3/bw-b6c4eb86a3550a7b8c706634df7ebc678ef17acec6be4a4d3a1ad07ce501790e.svg);
+}
+.flag-icon-bw.flag-icon-squared {
+  background-image: url(/assets/1x1/bw-fe0370e8219420717b0b88b469b46e38b06a9e96b1cee518fad0caac82105e5d.svg);
+}
+.flag-icon-by {
+  background-image: url(/assets/4x3/by-92d85397dfe854af803dea10650c2e039b925dd3fcdeaff02dd991dff5bfa2dd.svg);
+}
+.flag-icon-by.flag-icon-squared {
+  background-image: url(/assets/1x1/by-b5d1f9d9c134a27821dab7cd3fc7a80a6927bf9151440d758bf2dfeb916cb0aa.svg);
+}
+.flag-icon-bz {
+  background-image: url(/assets/4x3/bz-0cc2ba2c5ab5d4df397af8382353c391ec6322311becfb6a37c6ab654de2f3fe.svg);
+}
+.flag-icon-bz.flag-icon-squared {
+  background-image: url(/assets/1x1/bz-3a2bd20d7f9b712447737bde24dbfd89ae77f246dd70db8a7c6f79ec4c2d3880.svg);
+}
+.flag-icon-ca {
+  background-image: url(/assets/4x3/ca-5443e45f6dacfbcfb075fdf040d7d9676387030f4553e9f06223a57eb9762b72.svg);
+}
+.flag-icon-ca.flag-icon-squared {
+  background-image: url(/assets/1x1/ca-cfbff1f7a6ab0653ee93d8c859e999b333144fb1c472cf6733fa41ad43c6109e.svg);
+}
+.flag-icon-cc {
+  background-image: url(/assets/4x3/cc-5294b518a8dfaf1ee0cb70d9ae4aae7d70e60c6a42bc5eeff2b0ae8fa689f63a.svg);
+}
+.flag-icon-cc.flag-icon-squared {
+  background-image: url(/assets/1x1/cc-2f436a3bdf33a8ed2cd194093086ff125a119ec06a138bdc1f5a594edb59d638.svg);
+}
+.flag-icon-cd {
+  background-image: url(/assets/4x3/cd-d3575fbe2aceb5ea6eacb786b45c56da3657c05935c39d204f99d3d6ee372abd.svg);
+}
+.flag-icon-cd.flag-icon-squared {
+  background-image: url(/assets/1x1/cd-52df57beac73723d34acd04d73925119e84122f322408743deee34263e932d6a.svg);
+}
+.flag-icon-cf {
+  background-image: url(/assets/4x3/cf-c7de7e70c3c3c4f2855a08617f8bab2f57cac720d839915074e3e6155b41881a.svg);
+}
+.flag-icon-cf.flag-icon-squared {
+  background-image: url(/assets/1x1/cf-4b01e93fc189820bcd035ca22579823e40f9ef5a3ca388edbbbe72d1a23b79fa.svg);
+}
+.flag-icon-cg {
+  background-image: url(/assets/4x3/cg-60ead5b06069d2481fdf9697f2834be4b2aad7b8ae09cb7a72a9fc0f8ef17ecb.svg);
+}
+.flag-icon-cg.flag-icon-squared {
+  background-image: url(/assets/1x1/cg-beda34f09e07819ca6bfcfe4c044fb52c5c87cf73919922cd649bd221ac7e53e.svg);
+}
+.flag-icon-ch {
+  background-image: url(/assets/4x3/ch-cf5cce0ddcc670d6ce94a4dec3b7a6abdc8b27a882d847728d8036ac086e5c78.svg);
+}
+.flag-icon-ch.flag-icon-squared {
+  background-image: url(/assets/1x1/ch-bc738bb452c5e325d11d41ff353e44334f86ac526d034fbce489a2c647089883.svg);
+}
+.flag-icon-ci {
+  background-image: url(/assets/4x3/ci-058d32cdab90bf62f90bbadccb7cc1e83b289cd2d1f192ea6a44aa1b69d806be.svg);
+}
+.flag-icon-ci.flag-icon-squared {
+  background-image: url(/assets/1x1/ci-d2378cd4b188df61303d8d4a5df462d3c48a7e731b0119a280533696a343d5a0.svg);
+}
+.flag-icon-ck {
+  background-image: url(/assets/4x3/ck-b241e3dc5e23262930fdc3db2c85b11533bcc50f62d049341531e1aba81ea627.svg);
+}
+.flag-icon-ck.flag-icon-squared {
+  background-image: url(/assets/1x1/ck-87d3b8e51f41485cd2e5d0780066371d3f386077878b9e092438fd14fc0a6510.svg);
+}
+.flag-icon-cl {
+  background-image: url(/assets/4x3/cl-ae39b2f197db767fd554e6ff84a714fb7ae6706f9e2f9a3a453fe1084ac0f382.svg);
+}
+.flag-icon-cl.flag-icon-squared {
+  background-image: url(/assets/1x1/cl-d9d800e77bd3043e99eb57d09a12d679fa316afe415514b6e3509b7701e8bfbe.svg);
+}
+.flag-icon-cm {
+  background-image: url(/assets/4x3/cm-7125391cf0ee1f9e849f95ff236f4ff583b3fa44aee563dfce61c2f4bd286624.svg);
+}
+.flag-icon-cm.flag-icon-squared {
+  background-image: url(/assets/1x1/cm-a67abcdae049f4112cd6ed422b36ff4680cdfff0da95c176bba08c3019434cc3.svg);
+}
+.flag-icon-cn {
+  background-image: url(/assets/4x3/cn-b183271684f3fac608c8a4f3ddc996be9b5fbfb51b2f0c94421fe72e9bbf96a8.svg);
+}
+.flag-icon-cn.flag-icon-squared {
+  background-image: url(/assets/1x1/cn-adc69e4981bfaaa843005e611df8fb7380352303603dcd8337cbf8a8282c47ca.svg);
+}
+.flag-icon-co {
+  background-image: url(/assets/4x3/co-1d91de37c5117b2a68df02987e4b336b8d84f4211077b1a6f812a4b77d7e75e6.svg);
+}
+.flag-icon-co.flag-icon-squared {
+  background-image: url(/assets/1x1/co-b6bd5facda546325c005dd1713eee054d0241932e40a006b1655a13eb9dce2b6.svg);
+}
+.flag-icon-cr {
+  background-image: url(/assets/4x3/cr-e13894d995bc7ee57a6feaf5933dfb85b61baa79898ec4ea0ef6d09686e987df.svg);
+}
+.flag-icon-cr.flag-icon-squared {
+  background-image: url(/assets/1x1/cr-af4e037945d6ca85485edaff561c4b14ac49ba4469c5c69f0fb4c84e44d77a1b.svg);
+}
+.flag-icon-cu {
+  background-image: url(/assets/4x3/cu-ad6e6fde8b06fc6555b667b4562afd48253eec1d434af331c2fd4abc09f16e80.svg);
+}
+.flag-icon-cu.flag-icon-squared {
+  background-image: url(/assets/1x1/cu-1089b0b3310fa7ae59c2453fb2524b74cda46cfaba1eab3c14510b4a8f99dd4e.svg);
+}
+.flag-icon-cv {
+  background-image: url(/assets/4x3/cv-f2ca59ad560427dd8a8772faef8d4afc5ec7dedd85d2ba4c1387db292dfc52ca.svg);
+}
+.flag-icon-cv.flag-icon-squared {
+  background-image: url(/assets/1x1/cv-552b15312874f9df1c870ddc62929b806cd2c735d08b3c480029083ac6e61fb1.svg);
+}
+.flag-icon-cw {
+  background-image: url(/assets/4x3/cw-3c2984555ed2a93112f833e29f124118a1f398758959fb37aab83ef78c732af9.svg);
+}
+.flag-icon-cw.flag-icon-squared {
+  background-image: url(/assets/1x1/cw-8df8840f3f47573e107fd5f269dae3daf7d3228a9991984a8beb6a24d30cfd77.svg);
+}
+.flag-icon-cx {
+  background-image: url(/assets/4x3/cx-dbd2dedad838c8f548e0d52a8e80d8c4322cb2a0a4a26af870b487476ee4d0ae.svg);
+}
+.flag-icon-cx.flag-icon-squared {
+  background-image: url(/assets/1x1/cx-27818fd6d502e7b49c144ee56c92a294bea98b61aec9a1b9bbcd237f757338e7.svg);
+}
+.flag-icon-cy {
+  background-image: url(/assets/4x3/cy-51fb91d1b9571b794fffe8f43e7490e1d43c9b6ddb6f74a4ef1832db47c56ac9.svg);
+}
+.flag-icon-cy.flag-icon-squared {
+  background-image: url(/assets/1x1/cy-8562f25cc4c79c41101907ca2ef8b82dafa3173714887fe5ba7431f9d8ef0221.svg);
+}
+.flag-icon-cz {
+  background-image: url(/assets/4x3/cz-133b678305320767d6dbcb3b1b1f83a4a621f3dc1f3c7c2e9a1155d3d456c065.svg);
+}
+.flag-icon-cz.flag-icon-squared {
+  background-image: url(/assets/1x1/cz-8b707106dcf322addcd4fecd061b4240b8f2ddd2511b2e7b7d18be3f471b7c2d.svg);
+}
+.flag-icon-de {
+  background-image: url(/assets/4x3/de-4e63dcd20adcefeea4fbefefe18aefb173cb2305f75cb73e126b4ed2ef6c5454.svg);
+}
+.flag-icon-de.flag-icon-squared {
+  background-image: url(/assets/1x1/de-78e68e0265b560f8378479fadfcc0fa12fd9218ce8b662e72c5bee6812793951.svg);
+}
+.flag-icon-dj {
+  background-image: url(/assets/4x3/dj-4c122ad9e3ba650f5c0028cf38409120b9458708e2f86d2db6dc41afbabb4280.svg);
+}
+.flag-icon-dj.flag-icon-squared {
+  background-image: url(/assets/1x1/dj-a767ececa525da5a836dc9dae1e13a9741d0ce55e8aa66edc43094d77d129f43.svg);
+}
+.flag-icon-dk {
+  background-image: url(/assets/4x3/dk-ab5699b3493f06352967ad02aee32a320097e22d29f6d8bee6dcc5f7372c560a.svg);
+}
+.flag-icon-dk.flag-icon-squared {
+  background-image: url(/assets/1x1/dk-f281c5f180e36c52b20a5f347574596cd3aeaa39119dffecb1171e83fcb612d2.svg);
+}
+.flag-icon-dm {
+  background-image: url(/assets/4x3/dm-5a8187815fb29afd600f12900bb14b1a3feb717e78edccfe1cd5816a2ce18286.svg);
+}
+.flag-icon-dm.flag-icon-squared {
+  background-image: url(/assets/1x1/dm-0e9a1d4c114b14a1bf1089e75ef4621f3d4114d137809841c79de5a45409c80a.svg);
+}
+.flag-icon-do {
+  background-image: url(/assets/4x3/do-c4ba3fcbecc62b60e701ba1c62114d133c9a670ce3feb06e9107ea68c525d067.svg);
+}
+.flag-icon-do.flag-icon-squared {
+  background-image: url(/assets/1x1/do-fe81a39406a3936cef7dd0678629448400ec52085f5b7aaf37323dee30946aa8.svg);
+}
+.flag-icon-dz {
+  background-image: url(/assets/4x3/dz-2c67f89dec93b92969aea2b9ca6a2972aac0f71c8acead09b218ae6dc92e8982.svg);
+}
+.flag-icon-dz.flag-icon-squared {
+  background-image: url(/assets/1x1/dz-c84a341e4db0163f55b9142bbe43890403a197cf1370ca139185b546afc06f6b.svg);
+}
+.flag-icon-ec {
+  background-image: url(/assets/4x3/ec-a22a37c51b25fd7175bbe6bde0379757d97aca6e9f88eab7fbf86dde8c10667a.svg);
+}
+.flag-icon-ec.flag-icon-squared {
+  background-image: url(/assets/1x1/ec-672402591c3cef5314b8aac6d28c60c94b869f4049566a64e8556b56aaa78c41.svg);
+}
+.flag-icon-ee {
+  background-image: url(/assets/4x3/ee-bb9c304e9de5b57c7651b6ae0cd54df3152ca838b7679e8c6cf20c470076051f.svg);
+}
+.flag-icon-ee.flag-icon-squared {
+  background-image: url(/assets/1x1/ee-35f467e23f42a8dd3882992746dac49d7e35974e535af22acba1418e7737a71f.svg);
+}
+.flag-icon-eg {
+  background-image: url(/assets/4x3/eg-1718fa1227110545ca26014f2443d66c52c8a500a790b3bc61ba4770550e6f04.svg);
+}
+.flag-icon-eg.flag-icon-squared {
+  background-image: url(/assets/1x1/eg-aab8c0064025c476a3514252490f5173af9cea6fc27ff311afb58b63e55a4a8e.svg);
+}
+.flag-icon-eh {
+  background-image: url(/assets/4x3/eh-3cfaea9f96b6a449e74d3c8979d456c7f24a73d5d93a23ee0128be5b60892572.svg);
+}
+.flag-icon-eh.flag-icon-squared {
+  background-image: url(/assets/1x1/eh-e427fb9c2bc46080be579a33d20d4c8dd7947fb944fbb5b8a727eeda1a080916.svg);
+}
+.flag-icon-er {
+  background-image: url(/assets/4x3/er-163c36f225a1a52f783c22cb8dc3dce0b42d5e5ccc773afb2368f4bdba2b9c1e.svg);
+}
+.flag-icon-er.flag-icon-squared {
+  background-image: url(/assets/1x1/er-6a5503072b3f16e3477e3797677d168c1f899c5f8b471640acf678f99e1d1684.svg);
+}
+.flag-icon-es {
+  background-image: url(/assets/4x3/es-ed4c42a40a4c7ec1aced74a9ce4372b2b0ca627d2638f5f05efd5e7ed7d5b694.svg);
+}
+.flag-icon-es.flag-icon-squared {
+  background-image: url(/assets/1x1/es-4bc6969b5fda0167476e1fcf73a7ad12496b39fb507c7bab364d4f2f5d9243d7.svg);
+}
+.flag-icon-et {
+  background-image: url(/assets/4x3/et-81d5a9ad0d21663e5817031b1174682a85b42aeae3d71a81b74d603096de830d.svg);
+}
+.flag-icon-et.flag-icon-squared {
+  background-image: url(/assets/1x1/et-41a4eb721425749057312a7e5e8ddad013c2195a8daf2caadf9f177bbe6f9013.svg);
+}
+.flag-icon-fi {
+  background-image: url(/assets/4x3/fi-715d9cc08df2649ddf749228d621194f7dd53de9e1a2b056b08be0c6faea47c5.svg);
+}
+.flag-icon-fi.flag-icon-squared {
+  background-image: url(/assets/1x1/fi-ab31af705218bf3ae8f212f8d09245bac03966f4c945580efdc0dc4f493189a4.svg);
+}
+.flag-icon-fj {
+  background-image: url(/assets/4x3/fj-4e6a9f9bbbad11b255f6346e2dac1d480d30af2bea61fe03c7af168a3a8c20e6.svg);
+}
+.flag-icon-fj.flag-icon-squared {
+  background-image: url(/assets/1x1/fj-d4022faa9071cf852eb45898dc2980176bbfcaa121e01a99bc187ab9f46e0977.svg);
+}
+.flag-icon-fk {
+  background-image: url(/assets/4x3/fk-b94086fcd290db0a4880fd7435db2b640d8a45b6b187b449258add0a896ce1a9.svg);
+}
+.flag-icon-fk.flag-icon-squared {
+  background-image: url(/assets/1x1/fk-8c6353815c5ee6396b854ce30abff8e072d2bd5b636592e834bc72abb043bbf5.svg);
+}
+.flag-icon-fm {
+  background-image: url(/assets/4x3/fm-a67224e67e1ee51e22a23029ce07fdf4d4c3718e25385a1b0ef2ac721e95af12.svg);
+}
+.flag-icon-fm.flag-icon-squared {
+  background-image: url(/assets/1x1/fm-6cdce99b748891ab5c25d5d284fb6ea3a9856e890323729e4d2c825174b0ef59.svg);
+}
+.flag-icon-fo {
+  background-image: url(/assets/4x3/fo-f64a0e9d2dbcf97a137f65c881de860b5b8d49dfdca36d27f9d3ffaf1427b1b2.svg);
+}
+.flag-icon-fo.flag-icon-squared {
+  background-image: url(/assets/1x1/fo-c230ab8d10f21b438ab2740ef7edcd12eede17ddabd7f0ca6425fda370ea6224.svg);
+}
+.flag-icon-fr {
+  background-image: url(/assets/4x3/fr-b7dfd8cda1c332d34356ea694f461aef9cc888e5ca9c3444dc046f594c338b0f.svg);
+}
+.flag-icon-fr.flag-icon-squared {
+  background-image: url(/assets/1x1/fr-140876278f4a98619a390111ba75b53ba5544ff30e70cc4c0bcadfa19bea5e28.svg);
+}
+.flag-icon-ga {
+  background-image: url(/assets/4x3/ga-ced5e25df7f9300562cedc394be9a2d43ffae69ba295f23a3cb765516b57a6ad.svg);
+}
+.flag-icon-ga.flag-icon-squared {
+  background-image: url(/assets/1x1/ga-4e9058d0436081df0234bdf0c9b397755649f332a2e3926ba87a0aabf32f7d22.svg);
+}
+.flag-icon-gb {
+  background-image: url(/assets/4x3/gb-dfddd57311315cce29d10a1c38acac18a00177653f05a0e64b2bd85c6fcb68af.svg);
+}
+.flag-icon-gb.flag-icon-squared {
+  background-image: url(/assets/1x1/gb-1a745b54c58f431c36297c2ee424e6cb8d304bc8c63db59b6b9064fb3be49b9d.svg);
+}
+.flag-icon-gd {
+  background-image: url(/assets/4x3/gd-a347e36817d411ae5e27b51765d89b7b5f22556c030444135d322a1d456a270b.svg);
+}
+.flag-icon-gd.flag-icon-squared {
+  background-image: url(/assets/1x1/gd-ac03b7634145fe02b041a4bb7529f4b329d1169a039f6cf370b3e8b92559f0c6.svg);
+}
+.flag-icon-ge {
+  background-image: url(/assets/4x3/ge-1ef56ac21a5b7e21629644ce0cc02174891e39231ddfd10b99ba81970b7053e6.svg);
+}
+.flag-icon-ge.flag-icon-squared {
+  background-image: url(/assets/1x1/ge-8a5cc98ad0acf01168ff169a98a472497b70f5c3f617b27406902ac4476615ba.svg);
+}
+.flag-icon-gf {
+  background-image: url(/assets/4x3/gf-79f06eb22aa3d3948e97f6c0264d1ca61a27c66abd8b436fa4223ab6f5d2abd5.svg);
+}
+.flag-icon-gf.flag-icon-squared {
+  background-image: url(/assets/1x1/gf-aba1e444e97178d07e02c9df01aedd426130ac69f67585cd6af1cfecc5a5011c.svg);
+}
+.flag-icon-gg {
+  background-image: url(/assets/4x3/gg-62120489728b8c66b4214a4f958a62128e73dc3bf4113eacfdc4f8f5427d2b66.svg);
+}
+.flag-icon-gg.flag-icon-squared {
+  background-image: url(/assets/1x1/gg-16eb72372a32d98e4a575809ad03ac6d1c602b9d5a8769e2d4561ed5ea57da80.svg);
+}
+.flag-icon-gh {
+  background-image: url(/assets/4x3/gh-7f64edc67915c4833ded7ed94df26437915c2f2c0159e1a6ee6d9be9bb339443.svg);
+}
+.flag-icon-gh.flag-icon-squared {
+  background-image: url(/assets/1x1/gh-ce5cc51acbee5d6a1c05e0a31a102489595d2253024b4b6a51399562debb5dd8.svg);
+}
+.flag-icon-gi {
+  background-image: url(/assets/4x3/gi-1203704f88c5ee195679f9476d8b0a5bf35c34f80b6eedc21f083c205061e86d.svg);
+}
+.flag-icon-gi.flag-icon-squared {
+  background-image: url(/assets/1x1/gi-7c0f993455307fb47ac1411622b26dc5a87e1961563e36db81095bce03398459.svg);
+}
+.flag-icon-gl {
+  background-image: url(/assets/4x3/gl-e6e9def615c23ca310216a250de68c37aee4ff125b5dca7a2a8c44e2f4e06a71.svg);
+}
+.flag-icon-gl.flag-icon-squared {
+  background-image: url(/assets/1x1/gl-4996d161654c3df5dee85c96f21c87c8df0ca81b0d351bb8fc30fe683f5d668d.svg);
+}
+.flag-icon-gm {
+  background-image: url(/assets/4x3/gm-f413387926a6e1bea03a7cc158e892d1b85ac29c4e101d64f9333ae0e3f88030.svg);
+}
+.flag-icon-gm.flag-icon-squared {
+  background-image: url(/assets/1x1/gm-262e6960f0c2513734a01b6f9d603700f77b4be5406daa9680f49743f7111341.svg);
+}
+.flag-icon-gn {
+  background-image: url(/assets/4x3/gn-95431a7c662374892f2ef4363b4a42c35b6f69f5190bfe1e36abc733286ea41d.svg);
+}
+.flag-icon-gn.flag-icon-squared {
+  background-image: url(/assets/1x1/gn-37480bc9bdd74302a48acf30291981d86bd2362336122160e3a06118bdbf0f8a.svg);
+}
+.flag-icon-gp {
+  background-image: url(/assets/4x3/gp-4eb9d65ac3986e7edac08a7cf40e9842a1fc559a922fea7089e97fa4faab1d36.svg);
+}
+.flag-icon-gp.flag-icon-squared {
+  background-image: url(/assets/1x1/gp-5d427343732964b85f6d9ec2a2731257b7bfe0bfd6bd25ea915cfe86ed966c52.svg);
+}
+.flag-icon-gq {
+  background-image: url(/assets/4x3/gq-653f2b6a82d2cabc7a665f893340bc0b320773afb58c80b40eefc4bc6089dc48.svg);
+}
+.flag-icon-gq.flag-icon-squared {
+  background-image: url(/assets/1x1/gq-a0f627477905b7f050fb0834f74d09c630727169ccf478f707ef32d1d77aba98.svg);
+}
+.flag-icon-gr {
+  background-image: url(/assets/4x3/gr-d15d16dec63fca88f843112ab0a64513102e2c7775d48b3ba9f5220be0ec639a.svg);
+}
+.flag-icon-gr.flag-icon-squared {
+  background-image: url(/assets/1x1/gr-d3b29954c32c6713bc671a54d87a59dfbfac744c0fa6d5dadaf1f963673d8050.svg);
+}
+.flag-icon-gs {
+  background-image: url(/assets/4x3/gs-f0b0655133a67ede5894ad12e6e9711d1c42979aebc122961279e8a97f5cec08.svg);
+}
+.flag-icon-gs.flag-icon-squared {
+  background-image: url(/assets/1x1/gs-a2c32d1931ce8d0fa2f92be573902d179fa80c3b5ef34b34779b57e5dba0c6f9.svg);
+}
+.flag-icon-gt {
+  background-image: url(/assets/4x3/gt-c8608c4a4cfc6a5bc6e323973c0907b1dacc2412e325d5200ad5f7eb693bd2b5.svg);
+}
+.flag-icon-gt.flag-icon-squared {
+  background-image: url(/assets/1x1/gt-2da114948494b1742a10eb909bddc94c58a07f0d9a96090867e59281050cb8f7.svg);
+}
+.flag-icon-gu {
+  background-image: url(/assets/4x3/gu-2e745914695cd6102251ca22c4da0a857a7ff759f1e273d02b6aa3fe6aee5901.svg);
+}
+.flag-icon-gu.flag-icon-squared {
+  background-image: url(/assets/1x1/gu-ec4a996c9fb028942592fa241ac83927cec24ad83349232dda6f3032c28a55fb.svg);
+}
+.flag-icon-gw {
+  background-image: url(/assets/4x3/gw-4a2734872c3922df90e2b63ba896e7e953a8da841724a7f81b3e8ab81fdf68f9.svg);
+}
+.flag-icon-gw.flag-icon-squared {
+  background-image: url(/assets/1x1/gw-2f87bcd5c15205d171a8ed240b8cc5493f16e47f4a6a97ec03d58bb4563d250f.svg);
+}
+.flag-icon-gy {
+  background-image: url(/assets/4x3/gy-f30f73ea1e7ef9c17af8fc02684e3873b748da8567d12ef9f92f8c91d8dee984.svg);
+}
+.flag-icon-gy.flag-icon-squared {
+  background-image: url(/assets/1x1/gy-c9b49b9ae81728b34ec974fe59979aea68927f714dcd549bf425ed6ad06366a6.svg);
+}
+.flag-icon-hk {
+  background-image: url(/assets/4x3/hk-1d848406807d0c1b3e20f4eff5d4ffee5a78ff12240ed70bd58cdb9e4feec72d.svg);
+}
+.flag-icon-hk.flag-icon-squared {
+  background-image: url(/assets/1x1/hk-23088c6666c92cc1d207984a728852a4828932b12041873fbf84ca198104763d.svg);
+}
+.flag-icon-hm {
+  background-image: url(/assets/4x3/hm-3544f4834c4af51e6c03f633bd9c35c8b532331c97e53202e96b3cf93545ce34.svg);
+}
+.flag-icon-hm.flag-icon-squared {
+  background-image: url(/assets/1x1/hm-f9c8af01147d443b25da687f68f88872c4ff711577c77408e2b407f68cfec8a6.svg);
+}
+.flag-icon-hn {
+  background-image: url(/assets/4x3/hn-dcb5a8f3f3f8d75bc560eb45e19d01681625befecc4cf2ac637abdabcdaa0af2.svg);
+}
+.flag-icon-hn.flag-icon-squared {
+  background-image: url(/assets/1x1/hn-fd55a1c4258ff2ec2c8d47a76ea8aac7f69b0129eef7bdf9bebf3437f421ce62.svg);
+}
+.flag-icon-hr {
+  background-image: url(/assets/4x3/hr-c6434e864d24402cd249e2115da7c9536d6e77ab532959cd676fb4c07ded31ec.svg);
+}
+.flag-icon-hr.flag-icon-squared {
+  background-image: url(/assets/1x1/hr-32c6dab47a77cf1f8930f97db0610fff12821c53b7a703551cc343abee245798.svg);
+}
+.flag-icon-ht {
+  background-image: url(/assets/4x3/ht-610894c53bf5a828d9bd7e8cf11d9ee6f4cd1fb496e2b3afd60892d9ec300ecc.svg);
+}
+.flag-icon-ht.flag-icon-squared {
+  background-image: url(/assets/1x1/ht-8771bda0bda4b3fa9b5977f527aaffc5fa172cab1eefb3d2bd42694e18f52c33.svg);
+}
+.flag-icon-hu {
+  background-image: url(/assets/4x3/hu-9ba04e89583161ab5d0154b5205ee4e507ff9d85da76cc8d394e689708ff5021.svg);
+}
+.flag-icon-hu.flag-icon-squared {
+  background-image: url(/assets/1x1/hu-366fcb8b0508decf8a542b155c71a104035fc584d8aea09a4a805f1b05092cf6.svg);
+}
+.flag-icon-id {
+  background-image: url(/assets/4x3/id-8554d290d9518f9dc8556e67a6f93bce7b4d5eb06fe1b845ddcb9ea826628d0e.svg);
+}
+.flag-icon-id.flag-icon-squared {
+  background-image: url(/assets/1x1/id-3e4e75dc30f5dce2af8a98077badc4f211dbc4840faac0367efc782300f69e71.svg);
+}
+.flag-icon-ie {
+  background-image: url(/assets/4x3/ie-242b64cfdcc0560077be26764b271a7d3cb4f6432663418f8d971c5d030f41a1.svg);
+}
+.flag-icon-ie.flag-icon-squared {
+  background-image: url(/assets/1x1/ie-3ba09b37a0e7ab41567807437bf5f8877b616e12460a11c9380e565f8e2e86fa.svg);
+}
+.flag-icon-il {
+  background-image: url(/assets/4x3/il-58729a52daff0899ae74b69767245990833a68242aad4699db742a0bba4e933e.svg);
+}
+.flag-icon-il.flag-icon-squared {
+  background-image: url(/assets/1x1/il-10748499204d9768dc670b4d8b89dbb0b97bd069f814d089895ba375e7357c37.svg);
+}
+.flag-icon-im {
+  background-image: url(/assets/4x3/im-7c57d1b078978a65168ad33f2cb100697938e0426d6a7015a8484e2901ebcc1a.svg);
+}
+.flag-icon-im.flag-icon-squared {
+  background-image: url(/assets/1x1/im-cc7f240122864154c8f1c139074cc732ea415e8423859db86fe399b30d22d197.svg);
+}
+.flag-icon-in {
+  background-image: url(/assets/4x3/in-50bf337de5b1b77335cc503f42a26723f5ea8a63b8a391929fdfc9229d13b35f.svg);
+}
+.flag-icon-in.flag-icon-squared {
+  background-image: url(/assets/1x1/in-75ce289af56fdeb28f59e1392531a7af5a2ce84561691feabdfda2d47e2c9d16.svg);
+}
+.flag-icon-io {
+  background-image: url(/assets/4x3/io-4a9105e2ad27dfdb861f97db860b1adc66b52d06879908ec92e7026dafb9f94d.svg);
+}
+.flag-icon-io.flag-icon-squared {
+  background-image: url(/assets/1x1/io-99a9cf0c14d840283e673c4b042e360295919a0562f936abf2b177f5edaf1a4f.svg);
+}
+.flag-icon-iq {
+  background-image: url(/assets/4x3/iq-432d9eba6cb16c93e8e1b2dec08b9e85aa9fcf77e366602b536472db52eb92b6.svg);
+}
+.flag-icon-iq.flag-icon-squared {
+  background-image: url(/assets/1x1/iq-1824b1905b2c49dc1e6a90170374dca2e2854b5af255f8cc62d13126f597f9fe.svg);
+}
+.flag-icon-ir {
+  background-image: url(/assets/4x3/ir-8bbd1b77b99c4d400b82402e8e2e024cb3f6dea41e4bcd7bceff22dce7a073e4.svg);
+}
+.flag-icon-ir.flag-icon-squared {
+  background-image: url(/assets/1x1/ir-7cc0863ff5f555270dd1ca4596b59585dbc099c07bae2f875b3e600bf7da2f24.svg);
+}
+.flag-icon-is {
+  background-image: url(/assets/4x3/is-dd4ddc2e7492a335feee0e7cf0b052bb094fd1cabcc7754a7872a8cd10af91a0.svg);
+}
+.flag-icon-is.flag-icon-squared {
+  background-image: url(/assets/1x1/is-5f05718a675ce59dd9e1652b02a7c28c07f5d7a492271f4bf566a2e361e257c5.svg);
+}
+.flag-icon-it {
+  background-image: url(/assets/4x3/it-01e6805140a4f678f9a97c31a4ccf9ff40181e2543b1467b616e5f0389860327.svg);
+}
+.flag-icon-it.flag-icon-squared {
+  background-image: url(/assets/1x1/it-a61f75ebc59ca8d02b9a68e63cd1be952609508a8eedf06e5c3dc01f310da0cc.svg);
+}
+.flag-icon-je {
+  background-image: url(/assets/4x3/je-a768ac31e474eaa3ac5c778c4e34ec38cb741480fccf78c2311802ce2c097248.svg);
+}
+.flag-icon-je.flag-icon-squared {
+  background-image: url(/assets/1x1/je-9ce7ba9935dec84eb1286c330aa11c044add13c5229c0f632f5c0acf2cdcc223.svg);
+}
+.flag-icon-jm {
+  background-image: url(/assets/4x3/jm-a698d549a2ae20147f4e3cf830eb7d25e29833ad92beddc703c5109849d1406a.svg);
+}
+.flag-icon-jm.flag-icon-squared {
+  background-image: url(/assets/1x1/jm-46729bc5a706d37b4138bef4505ef5be0043a0c123b64a3c44e50b970c7f20ad.svg);
+}
+.flag-icon-jo {
+  background-image: url(/assets/4x3/jo-36250133e1aaf57f6df6176ac015ecf3f7085ca33e9d999e524afc923d2142df.svg);
+}
+.flag-icon-jo.flag-icon-squared {
+  background-image: url(/assets/1x1/jo-b266b7f3668a203ab70ccf3f4c939eec990c3060e1a3f89859e78945b14160a9.svg);
+}
+.flag-icon-jp {
+  background-image: url(/assets/4x3/jp-9c59f47e455f45cb58ec792f08317633c91639e0cb6de89430bbabd7588bc584.svg);
+}
+.flag-icon-jp.flag-icon-squared {
+  background-image: url(/assets/1x1/jp-d1e4758fc0fbdcafb520cc91cb4a85a7d5e3856a34f8dacdafec56f286b4162c.svg);
+}
+.flag-icon-ke {
+  background-image: url(/assets/4x3/ke-99c4f67bb58544fcfc02d96735e70bc4493da450beaca000851bde6a400ed8e4.svg);
+}
+.flag-icon-ke.flag-icon-squared {
+  background-image: url(/assets/1x1/ke-f91e40a968d13a2b8b9b709783a8fdbd608d4494429645632e7faeeb571cd802.svg);
+}
+.flag-icon-kg {
+  background-image: url(/assets/4x3/kg-76e1d1b2a9dca9c9718d3c913f1d095186570d62f2ed6be578205b0ca6491296.svg);
+}
+.flag-icon-kg.flag-icon-squared {
+  background-image: url(/assets/1x1/kg-51b337e0fc1b3e2b0f903d862d982cf5910ed8cc1c7543e7a3bce5ee725dcabf.svg);
+}
+.flag-icon-kh {
+  background-image: url(/assets/4x3/kh-6fb16291a0424d0986b2f893a53ff5b2db11d800ba0b66c70433dedc45c53704.svg);
+}
+.flag-icon-kh.flag-icon-squared {
+  background-image: url(/assets/1x1/kh-2c6ab593166bf467bf4682bcd648fdfbc16b086374309aed2f999c83a568965e.svg);
+}
+.flag-icon-ki {
+  background-image: url(/assets/4x3/ki-4a06c15d0712a69ca69471fd531a20b96cef09ee2eeb2e7d6b4fe44c5b5c7f69.svg);
+}
+.flag-icon-ki.flag-icon-squared {
+  background-image: url(/assets/1x1/ki-32cd5135cb017d74c38b468db810c425151488c42ba93e9b972fae7a37631b10.svg);
+}
+.flag-icon-km {
+  background-image: url(/assets/4x3/km-4d8e786e964af4ea9547bb285b49353fcf24767b3c27730032923eed1d4ed433.svg);
+}
+.flag-icon-km.flag-icon-squared {
+  background-image: url(/assets/1x1/km-b03c2a8eee8f744aff8775ce32a38ce27af222cc84ba75b6069563926c2343da.svg);
+}
+.flag-icon-kn {
+  background-image: url(/assets/4x3/kn-255e0db04f65b6471e13494e6d46adb1bc26b3790f96b54e687e688f760c2f22.svg);
+}
+.flag-icon-kn.flag-icon-squared {
+  background-image: url(/assets/1x1/kn-ef7edc1bb3e0cf2b509c11562cd43023b2ddda9bac6fa2c227a34293b71b61bf.svg);
+}
+.flag-icon-kp {
+  background-image: url(/assets/4x3/kp-ac4834cbef62678916f903ef6d0425ec528ef67a602700426906343ab87d3a13.svg);
+}
+.flag-icon-kp.flag-icon-squared {
+  background-image: url(/assets/1x1/kp-f41d3eecd6d2cfac6ab6bb96d1a6a27671eb094b4be7f3defe18fbe9884e8975.svg);
+}
+.flag-icon-kr {
+  background-image: url(/assets/4x3/kr-d660c1f6935f04572790fcdc862b9ccb9d2d95fc47ef4be2378b626c4f487d14.svg);
+}
+.flag-icon-kr.flag-icon-squared {
+  background-image: url(/assets/1x1/kr-dabf8495f26d4979a9182affd81688e7e783952513d7d7b2560d81a82a7be96c.svg);
+}
+.flag-icon-kw {
+  background-image: url(/assets/4x3/kw-fb459662e6eeff8d4b7349deaabc0347f031d97f2253ba9252d5c036ba5be91a.svg);
+}
+.flag-icon-kw.flag-icon-squared {
+  background-image: url(/assets/1x1/kw-90f11c7a6410dc94b7c70ad27bb079f82777d4eaa66cc2cb4f9c014fcc5f49b2.svg);
+}
+.flag-icon-ky {
+  background-image: url(/assets/4x3/ky-434536d7e5e0b6b82644a30534a13e7f360610b5b7aba2312043c603c76bc33d.svg);
+}
+.flag-icon-ky.flag-icon-squared {
+  background-image: url(/assets/1x1/ky-995ce8e6991655ee04addc2803f6f74d05cdc00f0d118b64f7ddc35d7e5b2c50.svg);
+}
+.flag-icon-kz {
+  background-image: url(/assets/4x3/kz-4a5bcf9968e0a12c9d8cfb864d075ac269532bdaff360a024b615d6ec6eec7e7.svg);
+}
+.flag-icon-kz.flag-icon-squared {
+  background-image: url(/assets/1x1/kz-b1e9120705d11bd100cbe4c56107afff66d2cb267fef403d84c9b6aeb4d1eb96.svg);
+}
+.flag-icon-la {
+  background-image: url(/assets/4x3/la-754c5ad458234b190676729f446a616e2f7b829459db6d33f0db144fd7a34680.svg);
+}
+.flag-icon-la.flag-icon-squared {
+  background-image: url(/assets/1x1/la-b5df538f611c0905663a789b86616c1059803ddb9f3cb5b5eeae6a92ed38ed2d.svg);
+}
+.flag-icon-lb {
+  background-image: url(/assets/4x3/lb-4e469027d73325c3c6b6b914508e113f15b859b5987516cec7a95fb8ab755639.svg);
+}
+.flag-icon-lb.flag-icon-squared {
+  background-image: url(/assets/1x1/lb-1beb2fdf449a6c641eacbbf82f09ff4e9971eae627f24da1ff474143dd728fd4.svg);
+}
+.flag-icon-lc {
+  background-image: url(/assets/4x3/lc-be41f5bfe31709e1e5158e5f6b41ab12e39a92dadbf621fefbab1535bc671aad.svg);
+}
+.flag-icon-lc.flag-icon-squared {
+  background-image: url(/assets/1x1/lc-80943a48412a04d472de85cb9a87a0e5ed7c24f7d052825bc5e8a6bdbacd2fa8.svg);
+}
+.flag-icon-li {
+  background-image: url(/assets/4x3/li-969ff1ffdac3ca538aad635213ba18d3706caa61e6e3be4789436084ea7cdefb.svg);
+}
+.flag-icon-li.flag-icon-squared {
+  background-image: url(/assets/1x1/li-e8d4fe6b21193e9ad8e2967559318c4e5a6bb2dd981583a91603a714aada50ca.svg);
+}
+.flag-icon-lk {
+  background-image: url(/assets/4x3/lk-668d200bb8c4721be30c6d5ec2f0ac4545e9c2515cc9b8bb99c1c76bd0b7debb.svg);
+}
+.flag-icon-lk.flag-icon-squared {
+  background-image: url(/assets/1x1/lk-96f44992bc9677781667be61b1ce14494a520256a352434b709463367dff0477.svg);
+}
+.flag-icon-lr {
+  background-image: url(/assets/4x3/lr-fbe1adee9ec774a131af9361189dab0e28a335e63750005685a40b88201b934d.svg);
+}
+.flag-icon-lr.flag-icon-squared {
+  background-image: url(/assets/1x1/lr-0fe9a9175d273b9ea11c57b9a1f6ff773d5d47e539b349d38e3ccc3668de4d8e.svg);
+}
+.flag-icon-ls {
+  background-image: url(/assets/4x3/ls-beb3d2425e72159faf8a445565407ca403a53c18afed8b8e78e2faeaef3c9109.svg);
+}
+.flag-icon-ls.flag-icon-squared {
+  background-image: url(/assets/1x1/ls-1a93059ddc8dfbe7649d9136a8456b52e0b7bf5a9cd459dadf96afda67742613.svg);
+}
+.flag-icon-lt {
+  background-image: url(/assets/4x3/lt-8983f46bfae6d876ce94ec4af34be1d41a8685d9906e847a75af1e983c6b6ada.svg);
+}
+.flag-icon-lt.flag-icon-squared {
+  background-image: url(/assets/1x1/lt-1e8f91e5abd94c6f375732bd6213679fc8643259b65c1e474572745942a08165.svg);
+}
+.flag-icon-lu {
+  background-image: url(/assets/4x3/lu-1837f99fb3ac2ba75ab8f2b5083b9a2762020a06ff1a1aa9a026ebed9489c57a.svg);
+}
+.flag-icon-lu.flag-icon-squared {
+  background-image: url(/assets/1x1/lu-e3a5a58ec162c308b79ea67e16880f6e3719ca95eb4d233784ddd92896f60f56.svg);
+}
+.flag-icon-lv {
+  background-image: url(/assets/4x3/lv-12b2020bc1ee87844e907634b6a7813c9353167afc8548cd440f3a6bf2a2f991.svg);
+}
+.flag-icon-lv.flag-icon-squared {
+  background-image: url(/assets/1x1/lv-08ce27d49ecc5377a5b5aef3e244827b5ebe313c04376328f89b2922d97d7331.svg);
+}
+.flag-icon-ly {
+  background-image: url(/assets/4x3/ly-fe06e6768a266ed28bed76574cf75c49559292caf1d701df948b2194bd9688c4.svg);
+}
+.flag-icon-ly.flag-icon-squared {
+  background-image: url(/assets/1x1/ly-206773dccafa20d392dcbd15fbfe1becdcb877746b968534727d49c4483c23a7.svg);
+}
+.flag-icon-ma {
+  background-image: url(/assets/4x3/ma-09521372c34cecdc9ccd28521ee67390afccf5af173877f178e584f4964e8e90.svg);
+}
+.flag-icon-ma.flag-icon-squared {
+  background-image: url(/assets/1x1/ma-ed106ce797e59a6f8d898667b6405baf58a92a67438f56cb5573599d0e99c5db.svg);
+}
+.flag-icon-mc {
+  background-image: url(/assets/4x3/mc-c6adb845a9e483bb5458f4f64b3759c3be7c4208e407386f51994ebe62208eb1.svg);
+}
+.flag-icon-mc.flag-icon-squared {
+  background-image: url(/assets/1x1/mc-b4ea5c30307f092a0789928a0813a2a8ef3b49b7286e5309ddd364a9fa04ceb9.svg);
+}
+.flag-icon-md {
+  background-image: url(/assets/4x3/md-4692964a6d72a84cde0c8111a7a022b18be678e2b677389d5a0a9e979f9ef350.svg);
+}
+.flag-icon-md.flag-icon-squared {
+  background-image: url(/assets/1x1/md-b79fb8b2bbf39909cd73bfeaeee46f204b17dddf04ce6068257b366c64c479df.svg);
+}
+.flag-icon-me {
+  background-image: url(/assets/4x3/me-3aecd8c5c1b660be34325e46a484b956cd6f4e33c4199ddbbc5c5c63d6f3c3be.svg);
+}
+.flag-icon-me.flag-icon-squared {
+  background-image: url(/assets/1x1/me-7de91bd0383395d7a266578a4e3eb9231a24fb70cba0ba770d8938e9b64526c8.svg);
+}
+.flag-icon-mf {
+  background-image: url(/assets/4x3/mf-00b5dee2d58cf959a130b36a5a44f88849537b490cb0da9347f6eafb05408252.svg);
+}
+.flag-icon-mf.flag-icon-squared {
+  background-image: url(/assets/1x1/mf-d1b2255baa17e3db9a92d8460e552c8848c7fcd3993f96a37171d1f52fd1f2b6.svg);
+}
+.flag-icon-mg {
+  background-image: url(/assets/4x3/mg-4c709d93c781d8201d6ff7961e36513b35234887053d1ab54077c6be2e6dc443.svg);
+}
+.flag-icon-mg.flag-icon-squared {
+  background-image: url(/assets/1x1/mg-8e9d8c74c4a6a5a6a81a3d59e2204b74f20981a081564530bad75de0c77aba46.svg);
+}
+.flag-icon-mh {
+  background-image: url(/assets/4x3/mh-16341e23cb8df084eb4d842e0a8207259068c6f8e520210fd17cb63b5e4a1e6a.svg);
+}
+.flag-icon-mh.flag-icon-squared {
+  background-image: url(/assets/1x1/mh-2fbfabb710d57c834488353b270c19cb0712f8bb57ad4aff11eec1f3dd6c4501.svg);
+}
+.flag-icon-mk {
+  background-image: url(/assets/4x3/mk-17ad193b8868a8598d8288a6799cd1760ffd64b8a534213756f9c6b0a9f8b320.svg);
+}
+.flag-icon-mk.flag-icon-squared {
+  background-image: url(/assets/1x1/mk-aa318425bdf291c75c440bb28945ec350fee0d360e51e16ff828fab7aaed6d7f.svg);
+}
+.flag-icon-ml {
+  background-image: url(/assets/4x3/ml-3eac98fca9b2510f095da644ca42fcc4a6d4065ac4f758b527a5a8a31d34c0dd.svg);
+}
+.flag-icon-ml.flag-icon-squared {
+  background-image: url(/assets/1x1/ml-dd667faa102e6b68b12f3acd282922208ffffe6d39906ada3b7e685ec24b19b7.svg);
+}
+.flag-icon-mm {
+  background-image: url(/assets/4x3/mm-502f38f9b0b1553c665bf13c26a2cc6acbd9dee4ca084273ec33e1c14462a479.svg);
+}
+.flag-icon-mm.flag-icon-squared {
+  background-image: url(/assets/1x1/mm-780cc8d33f95614060c509fde550ddc5b8e29c9d678d07e9922bb1d10ce6f0e8.svg);
+}
+.flag-icon-mn {
+  background-image: url(/assets/4x3/mn-d8e3c3d0ecc9188969b0fc5c2d7e58e001d25bd42bea9bc54c6b778186db660b.svg);
+}
+.flag-icon-mn.flag-icon-squared {
+  background-image: url(/assets/1x1/mn-a50f170d5d05b69f86d65a3de50006f673684478f445a08a0dbad8b8b36a946b.svg);
+}
+.flag-icon-mo {
+  background-image: url(/assets/4x3/mo-d23af0535991ac333fc521ac9ce370677534f07b021cfb4bf94f0e2e583e33e7.svg);
+}
+.flag-icon-mo.flag-icon-squared {
+  background-image: url(/assets/1x1/mo-597c26d8891c24a26dcc4383c182a2d98155f744313155852d0620dbb0b4e17c.svg);
+}
+.flag-icon-mp {
+  background-image: url(/assets/4x3/mp-dd51f634d3688095ea312cb6fe98649a6e62eec28fc91463d3c999d81f4d16c8.svg);
+}
+.flag-icon-mp.flag-icon-squared {
+  background-image: url(/assets/1x1/mp-fe9809c048721885b51fc9770cd74d8640a9d9e17451c5cae638412f8dd4419b.svg);
+}
+.flag-icon-mq {
+  background-image: url(/assets/4x3/mq-d8f4ae77d1e8f4561ea229fafe6d608aa43b0846897349aabbf154cd12a2e687.svg);
+}
+.flag-icon-mq.flag-icon-squared {
+  background-image: url(/assets/1x1/mq-809b34feb68e0b58fb0c5601e9510aa1ae8c7cb90335a957bc7634cee686e1a9.svg);
+}
+.flag-icon-mr {
+  background-image: url(/assets/4x3/mr-73bea3257b274be3639b3a2a83346d1750bf13746440e99dc57712a13c34eb68.svg);
+}
+.flag-icon-mr.flag-icon-squared {
+  background-image: url(/assets/1x1/mr-5f0aaaeebf8f88c281f1da6984594984056c147b1149bdbecb3e4e326d87965d.svg);
+}
+.flag-icon-ms {
+  background-image: url(/assets/4x3/ms-82d3f59355ec46ff9181c66eedebef3f4e3b0c6ca08c17e8b6208b6489637c5a.svg);
+}
+.flag-icon-ms.flag-icon-squared {
+  background-image: url(/assets/1x1/ms-8b60bdb37210edff36340124403ba7b8b533237fc937548506673a40ab1f00d0.svg);
+}
+.flag-icon-mt {
+  background-image: url(/assets/4x3/mt-e424dded9c30573d243a24d112c410bf28ab909a59d115ea08c68ebe1ab19e9e.svg);
+}
+.flag-icon-mt.flag-icon-squared {
+  background-image: url(/assets/1x1/mt-96d88cd3a6d2ba456f9b9887b3de6c0dd4c4d7ec704c4240d0e63a0a196ebfba.svg);
+}
+.flag-icon-mu {
+  background-image: url(/assets/4x3/mu-80a98b9ba7c61eb483367f5b53432f383dae9fe32c6a46058817f3e013c8ab6c.svg);
+}
+.flag-icon-mu.flag-icon-squared {
+  background-image: url(/assets/1x1/mu-d3d13abb40c248ca93f380e73c4d597b43939696c562f11ac6c949b774c42ebc.svg);
+}
+.flag-icon-mv {
+  background-image: url(/assets/4x3/mv-6e67f64ceeace224b3a53b4abe85ff15e283f49334e0fe363d5058f09c06005a.svg);
+}
+.flag-icon-mv.flag-icon-squared {
+  background-image: url(/assets/1x1/mv-5e04530f4259bcb985812844f8f580a4928e5f6760f8902322daec8ee0b3d176.svg);
+}
+.flag-icon-mw {
+  background-image: url(/assets/4x3/mw-74936a0b53f9e25db7f3b7fcfe0e9647b5b748879afbc86224278cbffd407b9b.svg);
+}
+.flag-icon-mw.flag-icon-squared {
+  background-image: url(/assets/1x1/mw-0d11cf0ba34e0d9b55bcd062ed73a5408a32221a3e8bc90aaa8abef314dbe958.svg);
+}
+.flag-icon-mx {
+  background-image: url(/assets/4x3/mx-8f83ca04de77a42bca0e6a753e1354b41501963870f92d18a913781309876e73.svg);
+}
+.flag-icon-mx.flag-icon-squared {
+  background-image: url(/assets/1x1/mx-48611adba651a06458b1e7df93a8922759942fda9c8e450e35b6c08fca95c5fc.svg);
+}
+.flag-icon-my {
+  background-image: url(/assets/4x3/my-57da7afa376042733b1b7e8e76a2b372bf1ea65171b053b5671dff0e9e764db7.svg);
+}
+.flag-icon-my.flag-icon-squared {
+  background-image: url(/assets/1x1/my-1690cacaa229001479c1514bd2495bdd5f2d6d16b648a2f9b080145edfc38ca0.svg);
+}
+.flag-icon-mz {
+  background-image: url(/assets/4x3/mz-708917d8bb4204b312a018966c397ececd4557789b68daaf49752b1c41d3d669.svg);
+}
+.flag-icon-mz.flag-icon-squared {
+  background-image: url(/assets/1x1/mz-43d8887a6894a4f63add08ecc58ac9404705aef725ebb5a610ea3ab6abd3060a.svg);
+}
+.flag-icon-na {
+  background-image: url(/assets/4x3/na-c8c46ecbd6a33c6f0bfda4ab84c084d485a3f3cb86ee8c892c7d17916c4bde24.svg);
+}
+.flag-icon-na.flag-icon-squared {
+  background-image: url(/assets/1x1/na-15c09c761c3913d18c04ce02d3171037fb77b7ac9daf49e254d4339aa3dc32e8.svg);
+}
+.flag-icon-nc {
+  background-image: url(/assets/4x3/nc-48ca47cdf3418033f9e6a9e41a6fea47c0f5da9d4518cfe2574670d782920b26.svg);
+}
+.flag-icon-nc.flag-icon-squared {
+  background-image: url(/assets/1x1/nc-0efd2ddedb4ed27807503afaaca44f842d3ca9d2812b1f2cc10391302a515251.svg);
+}
+.flag-icon-ne {
+  background-image: url(/assets/4x3/ne-94133b009eb56492e36437b0eda82646532a38b37d2b6462efcc766a05330a41.svg);
+}
+.flag-icon-ne.flag-icon-squared {
+  background-image: url(/assets/1x1/ne-062ceb267b09361401d97df973b194e7b8e879117996139993b464d8855cdf14.svg);
+}
+.flag-icon-nf {
+  background-image: url(/assets/4x3/nf-aab19d3bd3062b562bd95680c2eb06462273ca92007529c7e1542de55ba91775.svg);
+}
+.flag-icon-nf.flag-icon-squared {
+  background-image: url(/assets/1x1/nf-b9a404057b43f3a9fe0bb8b965a4523558390998554841e4b07d99197a074c3d.svg);
+}
+.flag-icon-ng {
+  background-image: url(/assets/4x3/ng-ce32a8c4b1a9e90ea58308c5a6642e6d592a7dd66114ee4da4add1da7cf1c592.svg);
+}
+.flag-icon-ng.flag-icon-squared {
+  background-image: url(/assets/1x1/ng-076a5534e0d9b1a2665a7546d9fa475a0725272c1e24b87b06228f5f84f09b4a.svg);
+}
+.flag-icon-ni {
+  background-image: url(/assets/4x3/ni-260dbfac6588535d8c119935281d9901b341ff3c1f3408805b2780a4208df03a.svg);
+}
+.flag-icon-ni.flag-icon-squared {
+  background-image: url(/assets/1x1/ni-0faee2004184a3a79956dbb109c3a3079cef37aefbd8b8a5df2ef607ccf8fe04.svg);
+}
+.flag-icon-nl {
+  background-image: url(/assets/4x3/nl-08db4af4fdea05da2c2a5e2ceb0a26a75ef4cca0a95ca64c8feb4e942b7212e5.svg);
+}
+.flag-icon-nl.flag-icon-squared {
+  background-image: url(/assets/1x1/nl-48f80a5450dca0662a5b3f6e9184167bc56b8a566370bb24f8c0fb63a68a746d.svg);
+}
+.flag-icon-no {
+  background-image: url(/assets/4x3/no-eb6c7aaa2088619ced822b444c8ee5e54884b5d338241ebd22398ddafdc2534d.svg);
+}
+.flag-icon-no.flag-icon-squared {
+  background-image: url(/assets/1x1/no-28a4eaa57a22fc35ae2f72401581a00e432d3d461a0b1cc7346bda78024c7ee7.svg);
+}
+.flag-icon-np {
+  background-image: url(/assets/4x3/np-0bfe2fdb8e30625a24032297635b5e6f2b774a3049d777a3a03e8ba36d3620d1.svg);
+}
+.flag-icon-np.flag-icon-squared {
+  background-image: url(/assets/1x1/np-355b6793d5ff43759dd41a9a0f87ea28cc5e1f221ba5920967fc80d2e896c609.svg);
+}
+.flag-icon-nr {
+  background-image: url(/assets/4x3/nr-ba836b161ebc0239956e2801488b776cdebc831d910dd05fae8f3fe896bdbb86.svg);
+}
+.flag-icon-nr.flag-icon-squared {
+  background-image: url(/assets/1x1/nr-d9c352aa03a6b40d5b543d9f517758451085cba7917e9c9bc8499a98c1862df1.svg);
+}
+.flag-icon-nu {
+  background-image: url(/assets/4x3/nu-cf0d50123ee2a1dc1d666e5b2bd004898c5ff0eb8fa54b755482f6f4e179af0c.svg);
+}
+.flag-icon-nu.flag-icon-squared {
+  background-image: url(/assets/1x1/nu-f7b681458d389bb31251dfdccff19e337d2a83b08b1d32764dd33614ef42e43a.svg);
+}
+.flag-icon-nz {
+  background-image: url(/assets/4x3/nz-47c10dc284b096f71fc42310206da8da381423c85d5653de5aa5f8f8ab6806c0.svg);
+}
+.flag-icon-nz.flag-icon-squared {
+  background-image: url(/assets/1x1/nz-e733ede595fe57b762278e5dcde6f58136196119a11a98a3f7776096b37facd7.svg);
+}
+.flag-icon-om {
+  background-image: url(/assets/4x3/om-f6549653ae7242ce0068ac683871aeeb771cef99c9a65f839626552ab1cd6917.svg);
+}
+.flag-icon-om.flag-icon-squared {
+  background-image: url(/assets/1x1/om-99a1002e32eb2a0cbf75ceb17ba65f343727def5f12593d5b2474303e6de9880.svg);
+}
+.flag-icon-pa {
+  background-image: url(/assets/4x3/pa-a8586ade9a0b51138ebfd2eb3863d037deb8fcb5ac323d9bd6ef275a0cebee90.svg);
+}
+.flag-icon-pa.flag-icon-squared {
+  background-image: url(/assets/1x1/pa-746c729272248b114ad0675c598ba22e586a0f612429562f8d7bef66fd74f3bc.svg);
+}
+.flag-icon-pe {
+  background-image: url(/assets/4x3/pe-fa1fb05ccf94ff9361b712d8a25d5a8ce72c2d1c291d1597acff8d4f566a4ddf.svg);
+}
+.flag-icon-pe.flag-icon-squared {
+  background-image: url(/assets/1x1/pe-7be2ac1f2ed2451b0f0e99110368ef5982a8bb72b4f46be05ed504bacfe0f4c0.svg);
+}
+.flag-icon-pf {
+  background-image: url(/assets/4x3/pf-176a4dff8bfe4882cb2256a81e087eea6ea6746f86117b1886868e7eb750d3bf.svg);
+}
+.flag-icon-pf.flag-icon-squared {
+  background-image: url(/assets/1x1/pf-f6a67c5a133da4ad8225bdb03c54a76cf943f952509321cacbd724eb6b52edcf.svg);
+}
+.flag-icon-pg {
+  background-image: url(/assets/4x3/pg-33d5764ea4eda22f3e200f94b431e772d3d9dff373ba22eb7f34e5dc3f7b5dc6.svg);
+}
+.flag-icon-pg.flag-icon-squared {
+  background-image: url(/assets/1x1/pg-f035fc61b45ff644b00f5a58f58233b104e801b128a9de58f5b8d8902ca6cbdc.svg);
+}
+.flag-icon-ph {
+  background-image: url(/assets/4x3/ph-3701f9c972a371f3d0a8ff92b26d98c056e2b8092266156403ac6ee870ab1a94.svg);
+}
+.flag-icon-ph.flag-icon-squared {
+  background-image: url(/assets/1x1/ph-5e49fa75ea00c2f25b381162a710e3905482dfed815afa68025b96ff28917f3f.svg);
+}
+.flag-icon-pk {
+  background-image: url(/assets/4x3/pk-d1e79c886a4575f4295b6639258bdde7ae0985f2c46b12da57e9f36241319db0.svg);
+}
+.flag-icon-pk.flag-icon-squared {
+  background-image: url(/assets/1x1/pk-a1ac3a30b1cdc3dc010890bd2fb69dd407ca107a235512f2ff058f29c7a78a8a.svg);
+}
+.flag-icon-pl {
+  background-image: url(/assets/4x3/pl-8b3f63a22db17acdc3833544ab1d821b93a93779d8c8adb704e1c56604bccc21.svg);
+}
+.flag-icon-pl.flag-icon-squared {
+  background-image: url(/assets/1x1/pl-97bf470470996fda5cccab70e7f12d8ce7f9dd56c157c96142c1f32ce1ae9d8f.svg);
+}
+.flag-icon-pm {
+  background-image: url(/assets/4x3/pm-c446fd17102d5df8ce5d985700bda63cf68eb1cc5d349f80e1d5739418960a22.svg);
+}
+.flag-icon-pm.flag-icon-squared {
+  background-image: url(/assets/1x1/pm-dd822883f2b8644923cc598b5c2f273faacae6c8f85d865055c765a95dc372d5.svg);
+}
+.flag-icon-pn {
+  background-image: url(/assets/4x3/pn-f8e0c1b5ac1c33291b8e55ccdab4259cfb9afe80e66b6983d18be3cda83544dc.svg);
+}
+.flag-icon-pn.flag-icon-squared {
+  background-image: url(/assets/1x1/pn-9ded3012983f2ed68e7bcb5eba5b17843f15be64492a5e384c2339589ace6cd0.svg);
+}
+.flag-icon-pr {
+  background-image: url(/assets/4x3/pr-f7dfbf9ffa44d4df945830d746b63f82c0967602db97f2fe70b8bdadc3728bb1.svg);
+}
+.flag-icon-pr.flag-icon-squared {
+  background-image: url(/assets/1x1/pr-725ce7b1c5e5f3362529e6db13853ffd598a94d9243df2ab3b1db2a082d10545.svg);
+}
+.flag-icon-ps {
+  background-image: url(/assets/4x3/ps-5b48e96c2a14cf20158189e98aef4dd5aac749bef423394f9bd6cc13db02a80c.svg);
+}
+.flag-icon-ps.flag-icon-squared {
+  background-image: url(/assets/1x1/ps-33aac62b85348cdf1811c604797cc64080724618a7d62bd1fffa4388f560fd89.svg);
+}
+.flag-icon-pt {
+  background-image: url(/assets/4x3/pt-22d3b14d33cb8422570774f46d02713067322ef2f409816d37dfe47e28258205.svg);
+}
+.flag-icon-pt.flag-icon-squared {
+  background-image: url(/assets/1x1/pt-f26de3d7df722bc151e7fceb6e28bb1d2ead8fd04a16e93de6fe55917aefbeb7.svg);
+}
+.flag-icon-pw {
+  background-image: url(/assets/4x3/pw-3a770d2ff47b8f8aadbb8ccaf4a41952d29479b485b5848dd543529e12877dee.svg);
+}
+.flag-icon-pw.flag-icon-squared {
+  background-image: url(/assets/1x1/pw-cf7598cc09fe5b690a7ef9c382723a5d6bee0e61d47f3db1b4d68c270f2c6f4b.svg);
+}
+.flag-icon-py {
+  background-image: url(/assets/4x3/py-ad5548f9cd54c3c79c5a37946c878113a82732e611af60fcfd12b9d26d8c83d0.svg);
+}
+.flag-icon-py.flag-icon-squared {
+  background-image: url(/assets/1x1/py-230afceb66d432787edb0777b78f9ad0883d6697122e158816552762bdb3c2fc.svg);
+}
+.flag-icon-qa {
+  background-image: url(/assets/4x3/qa-5933ca2506b2a78da35de066d31cd1803bb5537a63987ac1d778bdbcd919f7dc.svg);
+}
+.flag-icon-qa.flag-icon-squared {
+  background-image: url(/assets/1x1/qa-39a36d15c4081f6ef494220b709bfe25de06b09686d92d552bcfe2cea8ca046e.svg);
+}
+.flag-icon-re {
+  background-image: url(/assets/4x3/re-af3d1d725e052695cf8465fbf7e7e0289b90193fb0e615620c8e43931c83f273.svg);
+}
+.flag-icon-re.flag-icon-squared {
+  background-image: url(/assets/1x1/re-fce97a0366cbf16fa158b2a2f33fbee1ea1274d9b200b15a9bc0adb214dff2a7.svg);
+}
+.flag-icon-ro {
+  background-image: url(/assets/4x3/ro-8b8d80d67b2d13cdedc15537896b70c5cfbce2fb02a6d84a53067ed32adcd86e.svg);
+}
+.flag-icon-ro.flag-icon-squared {
+  background-image: url(/assets/1x1/ro-96375c46ad043314d5a55c9e443dd16328df519e00bc515694ba8307a6e1aad1.svg);
+}
+.flag-icon-rs {
+  background-image: url(/assets/4x3/rs-6996c976c790fa3ec94b303aef2906b78fbc10b0c627a614d18fe074f0217f0c.svg);
+}
+.flag-icon-rs.flag-icon-squared {
+  background-image: url(/assets/1x1/rs-d087fae0963749463a2f4333307ecc67a6b026f0296d3cde5dca6e7604460f3c.svg);
+}
+.flag-icon-ru {
+  background-image: url(/assets/4x3/ru-1d64227a0cd0b4ed228e959b75f825391db2c4e28c5f7bc713ab9959b96edab9.svg);
+}
+.flag-icon-ru.flag-icon-squared {
+  background-image: url(/assets/1x1/ru-2af39365adb7feff56341d5e5a12b89a6ff1681f609b937ba01b08c4b438ceb8.svg);
+}
+.flag-icon-rw {
+  background-image: url(/assets/4x3/rw-17f85d0e14fdefbe37d95150757b0ba31a3ef8d9c4cac16ba1cf12151833cdaf.svg);
+}
+.flag-icon-rw.flag-icon-squared {
+  background-image: url(/assets/1x1/rw-7a2d2b39a97d4789df2f11f42c249b366bcaae66b109405d3a72550750042900.svg);
+}
+.flag-icon-sa {
+  background-image: url(/assets/4x3/sa-3c59f6973d6f1b2919726f9b1885e7198f8765aee32e21c7f4bb5f79b7221ac7.svg);
+}
+.flag-icon-sa.flag-icon-squared {
+  background-image: url(/assets/1x1/sa-70d708cb411b420185bb9f40dc2beeffb47c8d718021662f148f7cb4eb5b2c02.svg);
+}
+.flag-icon-sb {
+  background-image: url(/assets/4x3/sb-525a6a5458c6eb4a8f30a386138d97d1d9708e73196f7ba80aa3905f1f0635b2.svg);
+}
+.flag-icon-sb.flag-icon-squared {
+  background-image: url(/assets/1x1/sb-40484399266c19da2fcdb1b3caca4de37f103b385600722c9103c2faf409f45f.svg);
+}
+.flag-icon-sc {
+  background-image: url(/assets/4x3/sc-783da6849d4ef8e4f2c25d0516dcfe3547a20fa305d6d8c2af02d02d46f6074b.svg);
+}
+.flag-icon-sc.flag-icon-squared {
+  background-image: url(/assets/1x1/sc-6b9689d2c555421c26a27d64f598c0255aa74522476b2229593565c55bffa5a8.svg);
+}
+.flag-icon-sd {
+  background-image: url(/assets/4x3/sd-5ccb9f30225b4136863dda7260abf9504aebcfb63fc630f50436c7de3e5ade18.svg);
+}
+.flag-icon-sd.flag-icon-squared {
+  background-image: url(/assets/1x1/sd-04164d721d7bfcec8ed05dd82e1c25fba15378717aad72409647378176288236.svg);
+}
+.flag-icon-se {
+  background-image: url(/assets/4x3/se-ca420dd00d263e0eef50289343a8caa831cf1abb38115df1dad3bc0af4b2c933.svg);
+}
+.flag-icon-se.flag-icon-squared {
+  background-image: url(/assets/1x1/se-1575d71fb282d5bd7092b7419ac14f7cf3dd045ff00183b46bb07e98e068bf7d.svg);
+}
+.flag-icon-sg {
+  background-image: url(/assets/4x3/sg-e10b4ce1bfa04f77d266729dbd6356165de439df83eee0f444b61ae53d356d8d.svg);
+}
+.flag-icon-sg.flag-icon-squared {
+  background-image: url(/assets/1x1/sg-0cbcf39b8879ff6724909f3e352dadf8ea2318120c49d3cde42815c482b5bc99.svg);
+}
+.flag-icon-sh {
+  background-image: url(/assets/4x3/sh-53cb26dada89ed68ba8f64621fd5da7caccca214c299a071afe083ea5f128c74.svg);
+}
+.flag-icon-sh.flag-icon-squared {
+  background-image: url(/assets/1x1/sh-b02202eb621c3184134a3e384fd5ed5afda494e5780d41a097044539f8aa0904.svg);
+}
+.flag-icon-si {
+  background-image: url(/assets/4x3/si-a7aa0a8fca2f1a9eb7f0352685885d26a651c8550e16fe7fd08b24bcc9b931a9.svg);
+}
+.flag-icon-si.flag-icon-squared {
+  background-image: url(/assets/1x1/si-a044f8d448c5bad2ba62732db7228bb1c616305eb0b8960ea6a8188ad484ebbb.svg);
+}
+.flag-icon-sj {
+  background-image: url(/assets/4x3/sj-2207b9ed0f9f7f493b581f1f160662d2927be5503cc9eed8f0eaa9c21bcd2161.svg);
+}
+.flag-icon-sj.flag-icon-squared {
+  background-image: url(/assets/1x1/sj-02847706ef5d3520226ba92ec2f24f14f38160aeea2050bae8217329441306f1.svg);
+}
+.flag-icon-sk {
+  background-image: url(/assets/4x3/sk-2f9c58f8ca934c48af13173862832f4d27db046f6f83d2d0f879af02b6d40f67.svg);
+}
+.flag-icon-sk.flag-icon-squared {
+  background-image: url(/assets/1x1/sk-edf57892167d3e99477a0574dd2ad8e6239739bf0743ea56c50d25dd9124f21a.svg);
+}
+.flag-icon-sl {
+  background-image: url(/assets/4x3/sl-0b350cec30d9307cbe8e345cfe2abf4b4b7efc01ad857315738c6c5f9adf8d33.svg);
+}
+.flag-icon-sl.flag-icon-squared {
+  background-image: url(/assets/1x1/sl-35d5a46d19c9bf2f1aa6f53d123fa2afbfef7d6f1487d237966eeff20f27d61e.svg);
+}
+.flag-icon-sm {
+  background-image: url(/assets/4x3/sm-212d31ba7e7dca7d6343c34aeb7794530e97b783b9c47c55484369800edf4eab.svg);
+}
+.flag-icon-sm.flag-icon-squared {
+  background-image: url(/assets/1x1/sm-389279c4849a12b42831dcd2327dc28220cbd04ec11387bd185ce4b2b013eed7.svg);
+}
+.flag-icon-sn {
+  background-image: url(/assets/4x3/sn-2690d8a2e4d8fddd2c6a235ba21b8b2f9707646858bcefd45ab32d34c92be4bc.svg);
+}
+.flag-icon-sn.flag-icon-squared {
+  background-image: url(/assets/1x1/sn-db71fcad519e3901f2e89477ce8d4f839abf5c4a7c6011a6c595039f0583b837.svg);
+}
+.flag-icon-so {
+  background-image: url(/assets/4x3/so-d0e0a14f48cf2ad1843c378bc63fc043a6727d61f3f628ac5fc207ad0dcf5d4f.svg);
+}
+.flag-icon-so.flag-icon-squared {
+  background-image: url(/assets/1x1/so-cb0b97c0dc4af24c1c9710c8b9bb0583618c3777e5b55e18108b127f4f1b603c.svg);
+}
+.flag-icon-sr {
+  background-image: url(/assets/4x3/sr-151ac153b26327552dacffeddfde2eab4ba681f09f1d5b2605f2bf641e6dd39a.svg);
+}
+.flag-icon-sr.flag-icon-squared {
+  background-image: url(/assets/1x1/sr-e39b78c9c8a8bdf44d8cf4acaed35321e7357058b3db08886f303c9790180fe8.svg);
+}
+.flag-icon-ss {
+  background-image: url(/assets/4x3/ss-cce7afb8341bffa5e0e892a98bac2f7643237ddc783c773b30d731f1f361c60d.svg);
+}
+.flag-icon-ss.flag-icon-squared {
+  background-image: url(/assets/1x1/ss-c9a70cbbf529303b0847064cf292f8c51c8ce38687526cade9e1501236c08571.svg);
+}
+.flag-icon-st {
+  background-image: url(/assets/4x3/st-b4a7d2fb50c00ee51a11f3469ef1748fd5fe8cb9b5edf46c89e9830244290ec1.svg);
+}
+.flag-icon-st.flag-icon-squared {
+  background-image: url(/assets/1x1/st-f42096a6a5d578ef6644d3746515f3d56f12da29ea02d798446b211cb7cbf377.svg);
+}
+.flag-icon-sv {
+  background-image: url(/assets/4x3/sv-67fbf973b097f3c316d6ff6efd0ba6a72e99ed76dc3d6ace0125942ea1b20ea9.svg);
+}
+.flag-icon-sv.flag-icon-squared {
+  background-image: url(/assets/1x1/sv-a71d2a3da26c4c1ff96b3b3e24cdcbf3dc9dd96de51a5061ba245ec7712d7d2c.svg);
+}
+.flag-icon-sx {
+  background-image: url(/assets/4x3/sx-7317f82439a6636f459d7659915b4113bcad9fe5d868c7895b9a43e1bed8ee59.svg);
+}
+.flag-icon-sx.flag-icon-squared {
+  background-image: url(/assets/1x1/sx-d1b2255baa17e3db9a92d8460e552c8848c7fcd3993f96a37171d1f52fd1f2b6.svg);
+}
+.flag-icon-sy {
+  background-image: url(/assets/4x3/sy-a7d50881d290af45831ec152977710e6ef66290632a57809e36aa34019ac203e.svg);
+}
+.flag-icon-sy.flag-icon-squared {
+  background-image: url(/assets/1x1/sy-9e626de95fd3af96514c76462a63506800f219b0d11bc39406aa3cd6dbd7e1c4.svg);
+}
+.flag-icon-sz {
+  background-image: url(/assets/4x3/sz-68a305439c875d9b2af380d8dbd9fba7a9fe4aef3aacbf737209d6c4861c2116.svg);
+}
+.flag-icon-sz.flag-icon-squared {
+  background-image: url(/assets/1x1/sz-a8a9e7df5add6b8cd180f1b8e333a5e19613c09a10292939bf9550d8b32354ef.svg);
+}
+.flag-icon-tc {
+  background-image: url(/assets/4x3/tc-b9e5fef7dc2ac214b30399d32c7f248053744b1cf3c7e1b1588ad4cfc62bbcbe.svg);
+}
+.flag-icon-tc.flag-icon-squared {
+  background-image: url(/assets/1x1/tc-8dbc7ea8486c80bba388621851eaddb85db34f6ddb8814b2117a635d10c2cd8b.svg);
+}
+.flag-icon-td {
+  background-image: url(/assets/4x3/td-1e88af7d3382a6db93ad98d06690aab1f743c2887e4b1259397674ef225bb9c9.svg);
+}
+.flag-icon-td.flag-icon-squared {
+  background-image: url(/assets/1x1/td-d0e11150bbed8e36d8b5ade3f32f89ef671ecd2400f97b672eff7f618dc4dd1c.svg);
+}
+.flag-icon-tf {
+  background-image: url(/assets/4x3/tf-39fa20c0e7406b4cf740c884d28f356be035c10216ddf4c974fb8a5976d0d486.svg);
+}
+.flag-icon-tf.flag-icon-squared {
+  background-image: url(/assets/1x1/tf-036deb4d2db653c694865cd2a21717947fbc7f650173aaa73262bae8d74d48db.svg);
+}
+.flag-icon-tg {
+  background-image: url(/assets/4x3/tg-6fc667f9add4bc547a1c6deb1a7e53abded3ca47a2cf232e39fb0b26a99a20b8.svg);
+}
+.flag-icon-tg.flag-icon-squared {
+  background-image: url(/assets/1x1/tg-be2df2b035029844a59074aee4420ad6fc66470c4e11bc6024cd7297f93fad79.svg);
+}
+.flag-icon-th {
+  background-image: url(/assets/4x3/th-d590ef3e3333749ea37dc1ced6b68c2b793ae03f068e9ba1c7dacac25794e349.svg);
+}
+.flag-icon-th.flag-icon-squared {
+  background-image: url(/assets/1x1/th-60800bb8ce8c1dbb0746d7b57471505da3f8e9c532b938ce330c1ac8fabc2419.svg);
+}
+.flag-icon-tj {
+  background-image: url(/assets/4x3/tj-aad265b77a632ab1fb16a05c808a9b4d140dc48a7ad0cb42b58b0707219647a1.svg);
+}
+.flag-icon-tj.flag-icon-squared {
+  background-image: url(/assets/1x1/tj-07d980d5041a482ed73ab425b9316885e34ed541f3435551187096f117975276.svg);
+}
+.flag-icon-tk {
+  background-image: url(/assets/4x3/tk-9f96c47cbc8a4884cee1ccc22a55aec8996620fdf137a9b4898b4e08f71b7f35.svg);
+}
+.flag-icon-tk.flag-icon-squared {
+  background-image: url(/assets/1x1/tk-a7d32f898fb7cd3f162c7cd552e03af039d2859a54662bf1287ca8fa4b238be9.svg);
+}
+.flag-icon-tl {
+  background-image: url(/assets/4x3/tl-f5ddf9863cc185f5cc9a4ac4d0c3629628f81b8fc4581e508203157d51c58eeb.svg);
+}
+.flag-icon-tl.flag-icon-squared {
+  background-image: url(/assets/1x1/tl-6a1dcc3e24b5fc6b3285b58cc7dfa368c19cd96f54a5e398b98e974aa0ae2790.svg);
+}
+.flag-icon-tm {
+  background-image: url(/assets/4x3/tm-c313879f9fc03655e81976a89dd1c2249ab1deea62cda29fad1b5e11f636377b.svg);
+}
+.flag-icon-tm.flag-icon-squared {
+  background-image: url(/assets/1x1/tm-2442525d0143d8e99d61d38383e88652ac24eca46d3e4a237b13568d2cf7e86e.svg);
+}
+.flag-icon-tn {
+  background-image: url(/assets/4x3/tn-46dc38497a2cc0694b423ddd00b2d619d794235ab72b467fecf10981dbf961e6.svg);
+}
+.flag-icon-tn.flag-icon-squared {
+  background-image: url(/assets/1x1/tn-d9baa2ed14f8733cc8660ca9f3477d006bb5562208032b0ba35fae10b9faca2d.svg);
+}
+.flag-icon-to {
+  background-image: url(/assets/4x3/to-1b4acf752156c2f556b273e2dd734be3e463bf43d6f6a7589a47e32d8ce9cb61.svg);
+}
+.flag-icon-to.flag-icon-squared {
+  background-image: url(/assets/1x1/to-4e2e501318520b0d1b3de735eadbd85050217ce91d2cc497449456dab5761206.svg);
+}
+.flag-icon-tr {
+  background-image: url(/assets/4x3/tr-81a50d9d3c3f6e15906158163f34f07a2dbf4e68754e54dacadfb0c635facb32.svg);
+}
+.flag-icon-tr.flag-icon-squared {
+  background-image: url(/assets/1x1/tr-7117b3beaff7d280503a96d4263fa8cd831989d5102a2fbe04eff5de35abeeb5.svg);
+}
+.flag-icon-tt {
+  background-image: url(/assets/4x3/tt-2f1427ec2b06caa52823a42a60b121650c2e022c6eb439a63690939bd6bae698.svg);
+}
+.flag-icon-tt.flag-icon-squared {
+  background-image: url(/assets/1x1/tt-92e0da92e8872634c36f007b85c8f3aca5f17c209b561c7a71821fa0f67ced1e.svg);
+}
+.flag-icon-tv {
+  background-image: url(/assets/4x3/tv-c0890bb2029f82ff64fd57a7ce7917a52e4b8348c3a19d0872704fe34c552e52.svg);
+}
+.flag-icon-tv.flag-icon-squared {
+  background-image: url(/assets/1x1/tv-27d58b5ab3f3490746340187872a27816b46dfca2830a96b89cbece0ba19ebf3.svg);
+}
+.flag-icon-tw {
+  background-image: url(/assets/4x3/tw-10bf9899486d0301a77c25a3031172b95fe4efa26c8636599b0e389b931cccde.svg);
+}
+.flag-icon-tw.flag-icon-squared {
+  background-image: url(/assets/1x1/tw-eb83c9e54e25fd9b047b27eb42bc547aba5b745c6e1c60c4cff2da1a10cc3736.svg);
+}
+.flag-icon-tz {
+  background-image: url(/assets/4x3/tz-3bfaef369e320d8493977a5adb1632ceab1315cbc1dbcc9972d3cf371ba28e39.svg);
+}
+.flag-icon-tz.flag-icon-squared {
+  background-image: url(/assets/1x1/tz-110ddbc01a18d3708d824797ed33dd113fc7e539f8b0752e54ba22ab21ca8b0a.svg);
+}
+.flag-icon-ua {
+  background-image: url(/assets/4x3/ua-1d0c8c7f1c1eef936e5959a08be10e597b7639884482216780e6787d146003b2.svg);
+}
+.flag-icon-ua.flag-icon-squared {
+  background-image: url(/assets/1x1/ua-887f89933b0a15cdbb6ee607062b7a2cb694635c56b978f6ca2a728173341f5b.svg);
+}
+.flag-icon-ug {
+  background-image: url(/assets/4x3/ug-fe57ec49ffbf453cb0160f24b932cd437e9d0db881b53ad8897645c7dc38b574.svg);
+}
+.flag-icon-ug.flag-icon-squared {
+  background-image: url(/assets/1x1/ug-06562a8dd053338ec58b1fa6410a7938d18f43d2f8ba4e319daa1ad81cbca943.svg);
+}
+.flag-icon-um {
+  background-image: url(/assets/4x3/um-4d9b377f014c140a66a6c93f566001223ea74d9052ef70808dbd90e8262568b5.svg);
+}
+.flag-icon-um.flag-icon-squared {
+  background-image: url(/assets/1x1/um-a0c7a090d759ef64381f21fbc693e91c3af3e2a5f4a6020abc0eb2086d2b5077.svg);
+}
+.flag-icon-us {
+  background-image: url(/assets/4x3/us-8736e65cfea67823b812d919d1288303e277a375832a865bb0111190f39ab227.svg);
+}
+.flag-icon-us.flag-icon-squared {
+  background-image: url(/assets/1x1/us-6926dea313ff80407790c26ae47ee96dada6285f90efae3f5af4701e82c1745d.svg);
+}
+.flag-icon-uy {
+  background-image: url(/assets/4x3/uy-d1800f1bcfca76c256795c4ff724b16a36bd64e587afb376aa3e5d2c5595bc78.svg);
+}
+.flag-icon-uy.flag-icon-squared {
+  background-image: url(/assets/1x1/uy-2fc1e796b90522f3f276bd50ef5e1bdac393f340a1da516900a32d1c581e8f19.svg);
+}
+.flag-icon-uz {
+  background-image: url(/assets/4x3/uz-51fa0f20d5daf2ef0dd0ef7e66228a7fe4704b84673e77a34c8d42093930d4fd.svg);
+}
+.flag-icon-uz.flag-icon-squared {
+  background-image: url(/assets/1x1/uz-b3ac4a91b11939d46c449bd3bc8d376174e22428f38bc411cc917075f8d34515.svg);
+}
+.flag-icon-va {
+  background-image: url(/assets/4x3/va-fe2bdc359991f7cd5d593e33b1c9cb5bf10afc2ea69c02e537f8b5dd2d0be673.svg);
+}
+.flag-icon-va.flag-icon-squared {
+  background-image: url(/assets/1x1/va-3f94373de283331205a1e9a9f89f316c07cf801d07283d9f866d9778d12e975f.svg);
+}
+.flag-icon-vc {
+  background-image: url(/assets/4x3/vc-15e7ede93d3fc026566317bf33498cba6bec669d1ffdd7df82c5243e61847e46.svg);
+}
+.flag-icon-vc.flag-icon-squared {
+  background-image: url(/assets/1x1/vc-598e6d67a3adf93e685212504a9c26600c13d4e862d081e171727331001e5645.svg);
+}
+.flag-icon-ve {
+  background-image: url(/assets/4x3/ve-fe4de36de7c86ca1f860b31e095a749cf866c5a6610672472214f02201906fd0.svg);
+}
+.flag-icon-ve.flag-icon-squared {
+  background-image: url(/assets/1x1/ve-7c20d3f60d332ecf78062d448c548bba8d56593b7f5ded6feffc29907a7930ed.svg);
+}
+.flag-icon-vg {
+  background-image: url(/assets/4x3/vg-9113c72d74982fe3202058774c533c85e52d31e970e08af07107d4e1b9ce3cc8.svg);
+}
+.flag-icon-vg.flag-icon-squared {
+  background-image: url(/assets/1x1/vg-7dd3dba79d307cdfb248973d2c172ab2da08a5e892d4b6e0210b422500807f4e.svg);
+}
+.flag-icon-vi {
+  background-image: url(/assets/4x3/vi-9113c72d74982fe3202058774c533c85e52d31e970e08af07107d4e1b9ce3cc8.svg);
+}
+.flag-icon-vi.flag-icon-squared {
+  background-image: url(/assets/1x1/vi-7dd3dba79d307cdfb248973d2c172ab2da08a5e892d4b6e0210b422500807f4e.svg);
+}
+.flag-icon-vn {
+  background-image: url(/assets/4x3/vn-ea9c37898e2d7b91cdf84c4af3f51e721527e54fc9bbe98b85618db0a467c181.svg);
+}
+.flag-icon-vn.flag-icon-squared {
+  background-image: url(/assets/1x1/vn-e99e9bc450fc91191e34dd7ca85ff9795cdf47110c40e4c0ea073cea37391d91.svg);
+}
+.flag-icon-vu {
+  background-image: url(/assets/4x3/vu-3f66bea7e280314cbddbca196ad8acdadae234f1e63bae1d00c17004e367f101.svg);
+}
+.flag-icon-vu.flag-icon-squared {
+  background-image: url(/assets/1x1/vu-643119fe9cbcd21ead92f7652e0f4350b3006c1ec6a85ecc40192bc58cfe6045.svg);
+}
+.flag-icon-wf {
+  background-image: url(/assets/4x3/wf-ef02152400c366f50de85e336cd9107fcfa67b5c33a68c5b92ee80b7a8d2bdeb.svg);
+}
+.flag-icon-wf.flag-icon-squared {
+  background-image: url(/assets/1x1/wf-84c009f7dfc627902cfd16576c44d7f1157fd3da6367ddc79178b3ff7d209fa9.svg);
+}
+.flag-icon-ws {
+  background-image: url(/assets/4x3/ws-ca68657c7dab068939de6586663f718e5cc72d51d7eab646cba743349362d89d.svg);
+}
+.flag-icon-ws.flag-icon-squared {
+  background-image: url(/assets/1x1/ws-adfe2f2931cf4d6af0d68265adc6875eb58b218cf84cc9dac44cedb5339f5230.svg);
+}
+.flag-icon-ye {
+  background-image: url(/assets/4x3/ye-2f5abab060b02c8be13afe667c0ef7bb78fc316bb4ff0ffa6bdf92e174d96094.svg);
+}
+.flag-icon-ye.flag-icon-squared {
+  background-image: url(/assets/1x1/ye-b350692740031240b00fdcc90c8e643d899aa7bc8dd6c209b5a3e6d0c9558ef1.svg);
+}
+.flag-icon-yt {
+  background-image: url(/assets/4x3/yt-c0d13507d8218d95b94740e64d009209b5ccc4a4c9d4a37a92ddf4c8fde5141c.svg);
+}
+.flag-icon-yt.flag-icon-squared {
+  background-image: url(/assets/1x1/yt-eed35dfb5e9c097f472f0edd47b445ed5dce97e88c97c8548d2d3c5eab10ad11.svg);
+}
+.flag-icon-za {
+  background-image: url(/assets/4x3/za-68eaccf8dd4e9f19dc2f95a01e357a5cd64cc8cbc078b420fe719a77f405c093.svg);
+}
+.flag-icon-za.flag-icon-squared {
+  background-image: url(/assets/1x1/za-a69bc73334e2f65bc41b4288ab84decb5a43115bba6ae4fff4f30adaa32915b2.svg);
+}
+.flag-icon-zm {
+  background-image: url(/assets/4x3/zm-60032dd452382ec15cbb9500390ce4774ef11adec800cd0f7b6f85c53bf8e240.svg);
+}
+.flag-icon-zm.flag-icon-squared {
+  background-image: url(/assets/1x1/zm-05a9579cd42d4030fc2dbc0a5de259486cdd7ecb525a0c76c6902ebf9ec734c6.svg);
+}
+.flag-icon-zw {
+  background-image: url(/assets/4x3/zw-a1a4a9926504e1ef9424dd6c97062f6203439b88e2dd5f85312a7c395f9d530e.svg);
+}
+.flag-icon-zw.flag-icon-squared {
+  background-image: url(/assets/1x1/zw-4aa8d763ddba492809d8e851dd2b0638e47300f7d890d4fde45a976169e14606.svg);
+}

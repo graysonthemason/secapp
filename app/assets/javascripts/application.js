@@ -17,6 +17,6 @@
 //= require sortable
 //= require filer_search_dropdown_menu
 //= require filers
-//= require techan.min
+//= require techan
 //= require stock-graph
 //= require_tree .
