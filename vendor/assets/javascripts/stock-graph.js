@@ -1,4 +1,4 @@
-if (window.location.pathname.indexOf("filers/") > 0) {
+if (window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/pres") < 1 && window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/financials") < 1) {
 var ready;
 ready = function() {
 data = $('.filers').data('source')
