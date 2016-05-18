@@ -37,6 +37,7 @@ group :development do
 end
 
 group :production do
+	gem 'passenger', require: "phusion_passenger/rack_handler"
 end
 
 
