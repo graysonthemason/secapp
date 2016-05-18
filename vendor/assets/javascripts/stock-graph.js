@@ -1,6 +1,6 @@
-if (window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/pres") < 1 && window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/financials") < 1) {
 var ready;
 ready = function() {
+if (window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/pres") < 1 && window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/financials") < 1) {
 data = $('.filers').data('source')
 var dim = {
         width: 1020, height: 500,
@@ -412,6 +412,7 @@ var dim = {
     }
 draw(data);
 }
+}
 $(document).ready(ready);
 $(document).on('page:load', ready);
-}
+
