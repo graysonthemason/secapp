@@ -25,6 +25,8 @@ gem 'mechanize'
 gem 'roo', '~> 2.3.2'
 gem 'd3-rails'
 gem 'rails_12factor'
+gem 'passenger', require: "phusion_passenger/rack_handler"
+
 
 group :development, :test do
   gem 'byebug'
@@ -38,7 +40,6 @@ group :development do
 end
 
 group :production do
-	gem 'passenger', require: "phusion_passenger/rack_handler"
 end
 
 
