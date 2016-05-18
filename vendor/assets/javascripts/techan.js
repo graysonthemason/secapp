@@ -5,8 +5,7 @@
 
 var ready;
 ready = function() {
-if (window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/pres") < 1 && window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/financials") < 1) {
-	if (window.location.pathname.indexOf("filers/") > 0) {
+	if (window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/pres") < 1 && window.location.pathname.indexOf("filers/") > 0 && window.location.pathname.indexOf("/financials") < 1) {
 			/*
 		 TechanJS v0.6.0
 		 (c) 2014 - 2015 Andre Dumas | https://github.com/andredumas/techan.js
