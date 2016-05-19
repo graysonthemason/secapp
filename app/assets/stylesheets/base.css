@@ -124,12 +124,15 @@ li:last-child {
 #notice {
     margin: 0;
 }
+
 .site-description {
     position: absolute;
     top: 180px;
     width: 100%;
 }
+
 .site-description p {
     max-width: 720px;
     margin: auto;
+    z-index: 10;
 }
